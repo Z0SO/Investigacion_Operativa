@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "5f6a25ba792ff736",
+    "type": "split",
+    "children": [
+      {
+        "id": "aab618b8e390007f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55955271bea8f758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Unidad 2 -(P) Notas de Clase.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97e4f4dd7d12ef80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Unidad 2 -(T) Notas de Clase.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99b8b2e88516cdec",
+    "type": "split",
+    "children": [
+      {
+        "id": "19484b73196a467e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8196c4e4092d3cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2cec2bd4bec6c67",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f466bce24bc65761",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b7240b4892bc90fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ba9977e2802d6e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e9787d0a8cf240e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notas/Unidad 2 -(P) Notas de Clase.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6b6a03b9b63034cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notas/Unidad 2 -(P) Notas de Clase.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2794280272c405a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5b2f279636dc85e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notas/Unidad 2 -(P) Notas de Clase.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "55955271bea8f758",
+  "lastOpenFiles": [
+    "Notas/Unidad 2 -(T) Notas de Clase.md",
+    "Notas/Unidad 2 -(P) Notas de Clase.md",
+    "Apunte/Unidad 1 - Modelado de Problemas.md",
+    "Apunte/Unidad 1 - Introduccion.md",
+    "Material Practico/Unidad 2/3-TP Pglineal - Modelado.pdf",
+    "Material Practico/Unidad 2/Guia_de_TP_Nro_1_Pgm_Lineal.pdf",
+    "Apunte Practico/Unidad 2 - Programacion Lineal.md",
+    "Material Practico/Unidad 2/Ejercicios resueltos.pdf",
+    "Material Practico/Unidad 1/UNIDAD 1 trabajo para presentar28-03-24.pdf",
+    "Apunte Practico",
+    "Material Practico/Unidad 2",
+    "Material Practico/Unidad 1",
+    "Notas",
+    "Apunte/Unidad 2 - Programacion Lineal.md",
+    "Material Teorico/Unidad-2/4-U2-Casos especiales.pdf",
+    "Material Teorico/Unidad-2/3-Interpretación tabla optima del simplex2.pdf",
+    "Sin título.md",
+    "img/Pasted image 20240322192358.png",
+    "img/Pasted image 20240322192213.png",
+    "img/Pasted image 20240322192054.png"
+  ]
+}

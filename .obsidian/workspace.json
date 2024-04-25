@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aab618b8e390007f",
+        "id": "7207fd00ccf6c121",
         "type": "tabs",
         "children": [
           {
-            "id": "55955271bea8f758",
+            "id": "a8a47a6b6dec66dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Unidad 2 -(P) Notas de Clase.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97e4f4dd7d12ef80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Unidad 2 -(T) Notas de Clase.md",
+                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 260.51103591918945
   },
   "right": {
     "id": "b7240b4892bc90fc",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Unidad 2 -(P) Notas de Clase.md",
+                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Unidad 2 -(P) Notas de Clase.md",
+                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Unidad 2 -(P) Notas de Clase.md"
+                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md"
               }
             }
           }
@@ -158,27 +146,39 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "55955271bea8f758",
+  "active": "a8a47a6b6dec66dd",
   "lastOpenFiles": [
+    "img/Pasted image 20240425014713.png",
+    "img/Pasted image 20240425014737.png",
+    "img/Pasted image 20240425014723.png",
+    "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
+    "img/Pasted image 20240425014548.png",
+    "img/Pasted image 20240425014656.png",
+    "img/Pasted image 20240425014625.png",
+    "img/Pasted image 20240425005818.png",
+    "img/Pasted image 20240425005805.png",
+    "img/Pasted image 20240425005748.png",
+    "img/Pasted image 20240425005735.png",
+    "Parcial_1/U-1/MaterialProfe/ANALISIS DE SENSIBILIDAD.pdf",
+    "Parcial_1/U-1/MaterialProfe/Investigación Operativa PL ejercicio teoria METODO SIMPLEX.pdf",
+    "Parcial_1/U-1/MaterialProfe/Investigación Operativa PL ejercicio teoria.pdf",
+    "TPI/UNIDAD 1 trabajo para presentar28-03-24.pdf",
+    "Parcial_1/U-1/Campus Virtual/PRACTICA/GUÍA DE ACTIVIDADES N° 1- INTRODUCCION (2) (1).pdf",
+    "Parcial_1/U-1/Apunte/Unidad 1 - Introduccion.md",
+    "Parcial_1/U-1/Apunte/Unidad 1 - Modelado de Problemas.md",
+    "Parcial_1/Apunte/PDFs/[IO] - TP N° 1.pdf",
+    "Indice.md",
+    "Parcial_1/Apunte/0-Introduccion_Teoria.md",
+    "Parcial_1/Apunte/Sin título.md",
+    "Parcial_1/Apunte/PDFs/1PL-ejercicioDeTeoria.pdf",
+    "Parcial_1/U-1/MaterialProfe/Suplemento H.pdf",
+    "Parcial_1/U-1/Suplemento H.pdf",
+    "Parcial_1/U-1/MaterialProfe",
     "Notas/Unidad 2 -(T) Notas de Clase.md",
     "Notas/Unidad 2 -(P) Notas de Clase.md",
     "Apunte/Unidad 1 - Modelado de Problemas.md",
     "Apunte/Unidad 1 - Introduccion.md",
-    "Material Practico/Unidad 2/3-TP Pglineal - Modelado.pdf",
-    "Material Practico/Unidad 2/Guia_de_TP_Nro_1_Pgm_Lineal.pdf",
     "Apunte Practico/Unidad 2 - Programacion Lineal.md",
-    "Material Practico/Unidad 2/Ejercicios resueltos.pdf",
-    "Material Practico/Unidad 1/UNIDAD 1 trabajo para presentar28-03-24.pdf",
-    "Apunte Practico",
-    "Material Practico/Unidad 2",
-    "Material Practico/Unidad 1",
-    "Notas",
-    "Apunte/Unidad 2 - Programacion Lineal.md",
-    "Material Teorico/Unidad-2/4-U2-Casos especiales.pdf",
-    "Material Teorico/Unidad-2/3-Interpretación tabla optima del simplex2.pdf",
-    "Sin título.md",
-    "img/Pasted image 20240322192358.png",
-    "img/Pasted image 20240322192213.png",
-    "img/Pasted image 20240322192054.png"
+    "Apunte/Unidad 2 - Programacion Lineal.md"
   ]
 }

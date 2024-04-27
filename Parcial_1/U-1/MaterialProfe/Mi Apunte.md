@@ -5,7 +5,7 @@
 
 ## Investigación Operativa
 
-La Investigación Operativa (IO) es la aplicación del método científico para asignar los recursos o actividades de forma eficaz en la gestión y organización de sistemas complejos. Su objetivo es ayudar a la toma de decisiones y requiere un enfoque interdisciplinario.
+La Investigación Operativa (IO) es la aplicación del **método científico** para asignar los **recursos** o actividades **de forma eficaz** en la gestión y organización de sistemas complejos. *Su objetivo es ayudar a la toma de decisiones* y *requiere un enfoque interdisciplinario*.
 
 Propone:
 - Aplicación de herramientas lógico-matemáticas.
@@ -15,19 +15,12 @@ Propone:
 
 ### ¿Cuál es el fundamento de la Investigación Operativa?
 
-Utiliza el método científico, lo que significa que sigue un proceso secuencial:
-1. **Observación y formulación del problema:** Incluye la recolección de datos pertinentes.
-2. **Construcción de un modelo científico:** Generalmente matemático, con el cual se intenta abstraer la esencia del problema real. Se propone la hipótesis de que el modelo será una representación precisa de la situación.
-3. **Validación del modelo:** Se realizan experimentos para probar y verificar la hipótesis.
-
-Puede generar soluciones a partir de:
-- Conocimiento del problema.
-- Creatividad.
-- Modelos reales, abarcativos y manejables.
-- Datos correctos y cuantificados.
-- Algoritmos apropiados.
-- Consideración de los diversos intereses.
-- Consideración de posibilidades de decisión.
+Utiliza el **método científico**, lo que significa que sigue un proceso secuencial:
+  - *Observar*
+  - *Creación de la hipótesis*
+  - *Experimentación*
+  - *Conclusión*
+  - *Reportar resultados*
 
 ## Características de la Investigación Operativa
 
@@ -73,9 +66,12 @@ Se presentan el modelo y las recomendaciones sugeridas a la persona o grupo que 
 Si la empresa acepta el estudio, se ayuda a poner en marcha las recomendaciones y se monitorea continuamente el sistema para asegurar que se cumplan los objetivos.
 
 
+
 # Dinámica de Sistemas en el Entorno de la Investigación Operativa
 
-En **dinámica de sistemas** se trata de mostrar cómo están relacionados la estructura de un sistema con su comportamiento. El objetivo es conciliar estas dos descripciones, de modo que aparezcan como las dos caras de una misma moneda.
+En **dinámica de sistemas** se trata de mostrar cómo están relacionados la *estructura de un sistema* con su *comportamiento*. El objetivo es conciliar estas dos descripciones, de modo que aparezcan como las dos caras de una misma moneda.
+
+	Dinamica de sistemas hace referencia a mostrar como estan relacionadas la ESTRUCTURA DE UN SISTEMA con su COMPORTAMIENTO.
 
 ## Ámbito de Aplicación de la Investigación Operativa
 
@@ -94,24 +90,25 @@ La investigación operativa se aplica en una amplia variedad de áreas dentro de
 
 ## Complejidad de la Realidad en la Investigación Operativa
 
-La complejidad de la realidad en la investigación operativa **depende de la variedad de componentes y relaciones que pueda tener un sistema**. Esta cantidad de componentes y relaciones determina un aumento o disminución de la complejidad.
+La complejidad de la realidad en la investigación operativa **depende de la VARIEDAD DE COMPONENTES y RELACIONES que pueda tener un sistema**. Esta cantidad de componentes y relaciones determina un aumento o disminución de la complejidad.
 
 ## Modelos de Decisión
 
 ### Modelos Prescriptivos o de Optimización
 
 Un modelo de este tipo *"dicta"* *el comportamiento para una organización* que le permitirá alcanzar mejor sus metas. 
-Elementos de un modelo prescriptivo:
-- Función(es) objetivo.
-- Variables de decisión.
-- Restricciones.
+
+Los Elementos de un modelo de **OPTIMIZACION**:
+- *Función objetivo.*
+- *Variables de decisión.*
+- *Restricciones.*
 
 ### Modelos Estáticos y Dinámicos
 
-- **Estáticos:** Las variables de decisión no requieren sucesiones de decisiones para períodos múltiples.
+- **Estáticos:** Las variables de decisión no requieren decisiones para períodos múltiples.
   - *Ejemplo:* Decidir si lanzar un nuevo producto al mercado **en un momento determinado**.
 
-- **Dinámicos:** Las variables de decisión requieren sucesiones de decisiones para períodos múltiples.
+- **Dinámicos:** Las variables de decisión requieren decisiones para períodos múltiples.
   - *Ejemplo:* Determinar cuánto inventario debe pedir una empresa minorista **en cada período de tiempo**.
 
 ### Modelos Lineales y No Lineales
@@ -155,33 +152,37 @@ En este tipo de escenarios, **NO se conocen las probabilidades asociadas con los
 
 La programación lineal es una  **técnica útil para asignar los recursos escasos** entre las distintas demandas que compiten por ellos.
 
-## Función Objetivo
-
+#### Función Objetivo
 Es una expresión en un modelo de programación lineal que enuncia matemáticamente lo que se intenta **maximizar** o **minimizar**.
 
-## Variables de Decisión
-
+#### Variables de Decisión
 Son variables que representan las opciones que están bajo el control de la persona que toma las decisiones.
 
-## Restricciones
-
+#### Restricciones
 Son las limitaciones que restringen las opciones permisibles para las variables de decisión.
 
-## Región Factible
-
+#### Región Factible
 Es la región que representa todas las combinaciones permisibles de las variables de decisión en un modelo de programación lineal. Representa todas las combinaciones permisibles de las variables de decisión.
 
-## Parámetros
+#### Parámetros
+Son valores que la persona a cargo de tomar la decisión NO puede controlar y que no cambian cuando se implementa la solución.
 
-Son valores que la persona a cargo de tomar la decisión no puede controlar y que no cambian cuando se implementa la solución.
-
-## Linealidad
-
+#### Linealidad
 Es una característica del modelo de programación lineal que implica proporcionalidad y aditividad; no puede haber productos ni potencias de las variables de decisión.
 
-## No Negatividad
+#### No Negatividad
 
-Es la suposición de que las variables de decisión deben ser positivas o cero.
+Es la suposición de que las variables de decisión **deben ser positivas o cero**.
+
+## Pilares de la Programación Lineal
+
+1. **Condiciones de No Negatividad:** Las variables de decisión (representadas por xi) deben ser iguales o mayores que cero. Esto se debe a que en situaciones del mundo real, como la producción de artículos, no tiene sentido tener un número negativo de ellos. Por ejemplo, no puedes producir -4 artículos.
+
+2. **Función Objetivo Única y Lineal:** Debe existir una función objetivo (representada por z = F(x)) que sea única. Si hay varios objetivos, todos deben subordinarse a uno solo. Además, esta función debe ser lineal, lo que significa que todas las variables tienen exponente uno (no se multiplican entre sí) y es optimizante, es decir, busca maximizar o minimizar algún aspecto del problema.
+
+3. **Condiciones de Ligadura (Restricciones):** Son un conjunto de restricciones operativas que imponen el problema y deben cumplirse. Estas restricciones tienen una forma específica que determina cómo deben relacionarse las variables de decisión para que la solución sea viable.
+
+Estos son los pilares fundamentales que sustentan la programación lineal, asegurando que los problemas sean bien definidos y tengan soluciones óptimas. ¿Hay algo más en lo que pueda ayudarte?
 
 # Formulación de un Problema en Investigación Operativa
 
@@ -263,10 +264,10 @@ El método simplex es un proceso sistemático que se repite iterativamente hasta
 ## Tipos de Problemas Típicos (Restricciones)
 
 ### Capacidad de Producción
-En problemas de capacidad, las restricciones se representan típicamente con la forma "menor o igual", ya que no se debe superar la capacidad del sistema. Por ejemplo, en la producción de un producto, las restricciones se definen en función de la capacidad máxima de producción de cada recurso necesario.
+En problemas de capacidad, **las restricciones se representan típicamente con la forma** "menor o igual", ya que no se debe superar la capacidad del sistema. Por ejemplo, en la producción de un producto, las restricciones se definen en función de la capacidad máxima de producción de cada recurso necesario.
 
 ### Pérdida
-En situaciones de pérdida, se obtiene un porcentaje menor del producto deseado debido a diversos factores, como fallos en la maquinaria o defectos en el proceso de producción. En casos de pérdida de varios centros sucesivos, se suma lo perdido en cada etapa para obtener la producción resultante.
+En situaciones de pérdida, **se obtiene un porcentaje menor del producto deseado** debido a diversos factores, como fallos en la maquinaria o defectos en el proceso de producción. En casos de pérdida de varios centros sucesivos, se suma lo perdido en cada etapa para obtener la producción resultante.
 
 ![[Pasted image 20240425014625.png]]
 
@@ -333,19 +334,19 @@ El análisis de sensibilidad **es una etapa posterior a la solución del problem
 
 ## Métodos de análisis
 
-Una forma de realizar el análisis de sensibilidad en problemas de programación lineal es a través del **método de resolución directa**. Este método *implica cambiar uno o varios valores de los parámetros y resolver nuevamente el problema completo*.
+Una forma de realizar el análisis de sensibilidad en problemas de programación lineal es a través del **método de RESOLUCION DIRECTA**. Este método *implica cambiar uno o varios valores de los parámetros y resolver nuevamente el problema completo*.
 
 ## Conceptos Clave
 
-#### Sensibilidad del coeficiente
+### Sensibilidad del coeficiente
 Es la medida de *cuánto debe mejorar el coeficiente de la función objetivo de una variable de decisión* (incremento para maximizar o decremento para minimizar) para que la solución óptima cambie y la variable de decisión se convierta en un número positivo.
 
 #### Precio sombra
-Es la *mejora marginal de Z* (incremento para maximizar y decremento para minimizar) que se produce como resultado de relajar la restricción en una unidad.
+Es la *mejora marginal de Z* (incremento para maximizar y decremento para minimizar) que se produce como resultado de **modificar la restricción en una unidad**.
 
 #### Rango de factibilidad
-Es el intervalo dentro del cual el parámetro del lado derecho puede variar mientras que su precio sombra siga siendo válido.
+Es el **intervalo dentro del cual el parámetro del LADO DERECHO puede variar** mientras que su precio sombra siga siendo válido.
 
 #### Rango de optimalidad
-Son los límites inferior y superior dentro de los cuales los valores óptimos de las variables de decisión no cambian.
+Son los **límites inferior y superior dentro de los cuales los valores de las variables de decisión no cambian**.
 

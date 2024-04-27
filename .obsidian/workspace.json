@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
+                "file": "Horarios.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.51103591918945
+    "width": 200
   },
   "right": {
     "id": "b7240b4892bc90fc",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
+                "file": "Horarios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
+                "file": "Horarios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parcial_1/U-1/MaterialProfe/Mi Apunte.md"
+                "file": "Horarios.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "a8a47a6b6dec66dd",
   "lastOpenFiles": [
+    "Horarios.md",
+    "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
     "img/Pasted image 20240425014713.png",
     "img/Pasted image 20240425014737.png",
     "img/Pasted image 20240425014723.png",
-    "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
     "img/Pasted image 20240425014548.png",
     "img/Pasted image 20240425014656.png",
     "img/Pasted image 20240425014625.png",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Horarios.md",
+                "file": "Parcial_1-Practico/apuntes/Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5
   },
   "right": {
     "id": "b7240b4892bc90fc",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Horarios.md",
+                "file": "Parcial_1-Practico/apuntes/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Horarios.md",
+                "file": "Parcial_1-Practico/apuntes/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Horarios.md"
+                "file": "Parcial_1-Practico/apuntes/Index.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "a8a47a6b6dec66dd",
   "lastOpenFiles": [
+    "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
+    "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
+    "Parcial_1-Practico/Dual_Sensibilidad-Guia_Practica_2.pdf",
+    "Parcial_1-Practico/apuntes/Index.md",
+    "Indice.md",
+    "Parcial_1-Practico/apuntes",
     "Horarios.md",
     "Parcial_1/U-1/MaterialProfe/Mi Apunte.md",
     "img/Pasted image 20240425014713.png",
@@ -168,13 +174,9 @@
     "Parcial_1/U-1/Apunte/Unidad 1 - Introduccion.md",
     "Parcial_1/U-1/Apunte/Unidad 1 - Modelado de Problemas.md",
     "Parcial_1/Apunte/PDFs/[IO] - TP N° 1.pdf",
-    "Indice.md",
     "Parcial_1/Apunte/0-Introduccion_Teoria.md",
     "Parcial_1/Apunte/Sin título.md",
     "Parcial_1/Apunte/PDFs/1PL-ejercicioDeTeoria.pdf",
-    "Parcial_1/U-1/MaterialProfe/Suplemento H.pdf",
-    "Parcial_1/U-1/Suplemento H.pdf",
-    "Parcial_1/U-1/MaterialProfe",
     "Notas/Unidad 2 -(T) Notas de Clase.md",
     "Notas/Unidad 2 -(P) Notas de Clase.md",
     "Apunte/Unidad 1 - Modelado de Problemas.md",

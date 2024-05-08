@@ -11,9 +11,11 @@
             "id": "3f3879dfcabb6238",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf"
+                "file": "Parcial_1-Practico/apuntes/Index.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -95,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
+                "file": "Parcial_1-Practico/apuntes/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
+                "file": "Parcial_1-Practico/apuntes/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf"
+                "file": "Parcial_1-Practico/apuntes/Index.md"
               }
             }
           }
@@ -158,11 +160,13 @@
   },
   "active": "3f3879dfcabb6238",
   "lastOpenFiles": [
+    "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
+    "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
+    "Parcial_1-Practico/Dual_Sensibilidad-Guia_Practica_2.pdf",
     "img/Pasted image 20240508014302.png",
     "img/Pasted image 20240508013712.png",
     "Parcial_1-Practico/Programacion_Lineal-Guia_Practica.pdf",
     "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
-    "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
     "Pasted image 20240508014302.png",
     "Pasted image 20240508013712.png",
     "Propmt's.md",
@@ -173,8 +177,6 @@
     "img/Pasted image 20240507200011.png",
     "img/Pasted image 20240507193909.png",
     "Parcial_1-Practico/apuntes/Estudio.md",
-    "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
-    "Parcial_1-Practico/Dual_Sensibilidad-Guia_Practica_2.pdf",
     "Parcial_1-Practico/apuntes/Index.md"
   ]
 }

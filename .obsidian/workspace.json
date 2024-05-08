@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf"
+                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf"
               }
             }
           },
@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parcial_1-Practico/apuntes/1-Problema Tipo 3.md",
+                "file": "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
+                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
+                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf"
+                "file": "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf"
               }
             }
           }
@@ -148,19 +148,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "3f3879dfcabb6238",
   "lastOpenFiles": [
-    "Parcial_1-Practico/apuntes/1-Problema Tipo 3.md",
+    "img/Pasted image 20240508014302.png",
+    "img/Pasted image 20240508013712.png",
+    "Parcial_1-Practico/Programacion_Lineal-Guia_Practica.pdf",
     "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
-    "Pasted image 20240507212730.png",
+    "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
+    "Pasted image 20240508014302.png",
+    "Pasted image 20240508013712.png",
+    "Propmt's.md",
+    "Parcial_1-Practico/apuntes/1-Problema Tipo 3.md",
+    "img/Pasted image 20240507212730.png",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 2.md",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 1.md",
     "img/Pasted image 20240507200011.png",

@@ -23,8 +23,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
-                "mode": "source",
+                "file": "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 265.51103591918945
   },
   "right": {
     "id": "070c87265b7fbba2",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
+                "file": "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
+                "file": "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md"
+                "file": "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md"
               }
             }
           }
@@ -157,8 +157,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c432bb7cf5fcc57c",
+  "active": "4a1d1f3a244c3c91",
   "lastOpenFiles": [
+    "Propmt's.md",
+    "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md",
+    "img/Pasted image 20240510124820.png",
+    "Parcial_1-Practico/Proyecto Lambda/26_04_95e2e6e6921b475db2a3256df5de6cce.pdf",
     "img/Pasted image 20240510011945.png",
     "img/Pasted image 20240510011936.png",
     "img/Pasted image 20240510003731.png",
@@ -171,19 +175,14 @@
     "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
     "img/Pasted image 20240509220100.png",
     "img/Pasted image 20240509220039.png",
-    "Parcial_1-Practico/Proyecto Lambda/26_04_95e2e6e6921b475db2a3256df5de6cce.pdf",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
     "Parcial_1-Practico/Proyecto Lambda/26_04_95e2e6e6921b475db2a3256df5de6cce.pdf.download",
-    "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md",
     "Parcial_1-Practico/apuntes/Index.md",
     "Parcial_1-Practico/Proyecto Lambda",
     "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
     "Parcial_1-Practico/Dual_Sensibilidad-Guia_Practica_2.pdf",
-    "img/Pasted image 20240508014302.png",
-    "img/Pasted image 20240508013712.png",
     "Parcial_1-Practico/Programacion_Lineal-Guia_Practica.pdf",
     "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
-    "Propmt's.md",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 3.md",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 2.md",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 1.md",

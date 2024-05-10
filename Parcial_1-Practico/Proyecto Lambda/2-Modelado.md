@@ -18,21 +18,29 @@ Entendido, aquí tienes la información formateada para Obsidian:
 
 ### Variables de Decisión
 
-- **x1:** Cantidad de combustible que se debe comprar del vendedor 1 [galones/mes]
-- **x2:** Cantidad de combustible que se debe comprar del vendedor 2 [galones/mes]
-- **x3:** Cantidad de combustible que se debe comprar del vendedor 3 [galones/mes]
+- **x1:** Cantidad de combustible que se debe comprar del vendedor 1 [galones/$]
+- **x2:** Cantidad de combustible que se debe comprar del vendedor 2 [galones/$]
+- **x3:** Cantidad de combustible que se debe comprar del vendedor 3 [galones/$]
 
 ### Función Objetivo
 
-$$ Z = x1 + x2 + x3 \rightarrow \text{MINIMIZAR} \quad [galones] $$
+
+$$ Z = x1 + x2 + x3 \rightarrow \text{MINIMIZAR} \quad [galones/mes.$]=[galones/mes] $$
+
+*Segun mi interpretacion decir galones / $ es equivalente a decir galones, ya que siempre representa la cantidad de galones por **$**
+Lo que sucede es que es convenente de esa forma porque en las restricciones cuando se multiplique por el precio se cancelaran los **$***
+
+
 ### Restricciones
+
 
 1. $$ x1 \leq 300 \quad [galones/mes] $$
 2. $$ x2 \leq 600 \quad [galones/mes] $$
 3. $$ x3 \leq 700 \quad [galones/mes] $$
-4. $$ 900x1 + 800x2 + 900x3 \geq 150 \quad [$/mes] $$
-5. $$ 900x1 + 1200x2 + 1300x3 \geq 250 \quad [$/mes] $$
-6. $$ 800x1 + 1300x2 + 500x3 \geq 350 \quad [$/mes] $$
+4. $$ 900x1 + 800x2 + 900x3 \geq 150 \quad [galones/mes] $$
+5. $$ 900x1 + 1200x2 + 1300x3 \geq 250 \quad [galones/mes] $$
+6. $$ 800x1 + 1300x2 + 500x3 \geq 350 \quad [galones/mes] $$
+$$[$]*[galones/$.mes]=[galones/mes] $$
 
 ### Slacks
 ##### Interpretacion de Slacks
@@ -47,8 +55,8 @@ $≤ →+→$  ***Por debajo* del minimo**
 
 ### Ecuaciones
 
-1. $$ 900x1 + 800x2 + 900x3 - s4 - 0s5 - 0s6 = 150 \quad [$/mes] $$
-2. $$ 900x1 + 1200x2 + 1300x3 - 0s4 - s5 - 0s6 = 250 \quad [$/mes] $$
-3. $$ 800x1 + 1300x2 + 500x3 - 0s4 - 0s5 - s6 = 350 \quad [$/mes] $$
+1. $$ 900x1 + 800x2 + 900x3 - s4 - 0s5 - 0s6 = 150 \quad [galones/mes] $$
+2. $$ 900x1 + 1200x2 + 1300x3 - 0s4 - s5 - 0s6 = 250 \quad [galones/mes] $$
+3. $$ 800x1 + 1300x2 + 500x3 - 0s4 - 0s5 - s6 = 350 \quad [galones/mes] $$
 
 ---

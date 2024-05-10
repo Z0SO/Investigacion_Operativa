@@ -11,27 +11,26 @@
             "id": "3f3879dfcabb6238",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Parcial_1-Practico/apuntes/Index.md",
-                "mode": "source",
-                "source": false
+                "file": "Parcial_1-Practico/Proyecto Lambda/26_04_95e2e6e6921b475db2a3256df5de6cce.pdf"
               }
             }
           },
           {
-            "id": "8178ce3e77e78af1",
+            "id": "4a1d1f3a244c3c91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
+                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parcial_1-Practico/apuntes/Index.md",
+                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parcial_1-Practico/apuntes/Index.md",
+                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parcial_1-Practico/apuntes/Index.md"
+                "file": "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md"
               }
             }
           }
@@ -158,25 +157,36 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3f3879dfcabb6238",
+  "active": "c432bb7cf5fcc57c",
   "lastOpenFiles": [
-    "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
+    "img/Pasted image 20240510011945.png",
+    "img/Pasted image 20240510011936.png",
+    "img/Pasted image 20240510003731.png",
+    "img/Pasted image 20240510000938.png",
+    "img/Pasted image 20240510000901.png",
+    "img/Pasted image 20240510000851.png",
+    "Parcial_1-Practico/Proyecto Lambda/4-Analisis Optimo.md",
+    "Parcial_1-Practico/Proyecto Lambda/1-Metodo Grafico.md",
+    "img/Pasted image 20240509234002.png",
+    "Parcial_1-Practico/Proyecto Lambda/3-Primal_Dual.md",
+    "img/Pasted image 20240509220100.png",
+    "img/Pasted image 20240509220039.png",
+    "Parcial_1-Practico/Proyecto Lambda/26_04_95e2e6e6921b475db2a3256df5de6cce.pdf",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 4.md",
+    "Parcial_1-Practico/Proyecto Lambda/26_04_95e2e6e6921b475db2a3256df5de6cce.pdf.download",
+    "Parcial_1-Practico/Proyecto Lambda/2-Modelado.md",
+    "Parcial_1-Practico/apuntes/Index.md",
+    "Parcial_1-Practico/Proyecto Lambda",
+    "Parcial_1-Practico/Dual_Sensibilidad-RESUELTA.pdf",
     "Parcial_1-Practico/Dual_Sensibilidad-Guia_Practica_2.pdf",
     "img/Pasted image 20240508014302.png",
     "img/Pasted image 20240508013712.png",
     "Parcial_1-Practico/Programacion_Lineal-Guia_Practica.pdf",
     "Parcial_1-Practico/Programacion_Lineal-Ejercicios_Resueltos.pdf",
-    "Pasted image 20240508014302.png",
-    "Pasted image 20240508013712.png",
     "Propmt's.md",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 3.md",
-    "img/Pasted image 20240507212730.png",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 2.md",
     "Parcial_1-Practico/apuntes/1-Problema Tipo 1.md",
-    "img/Pasted image 20240507200011.png",
-    "img/Pasted image 20240507193909.png",
-    "Parcial_1-Practico/apuntes/Estudio.md",
-    "Parcial_1-Practico/apuntes/Index.md"
+    "Parcial_1-Practico/apuntes/Estudio.md"
   ]
 }

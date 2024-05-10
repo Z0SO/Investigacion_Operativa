@@ -24,7 +24,7 @@ Entendido, aquí tienes la información formateada para Obsidian:
 
 ### Función Objetivo
 
-$$ Z = x1 + x2 + x3 \rightarrow \text{MINIMIZAR} \quad [galones/$] $$
+$$ Z = x1 + x2 + x3 \rightarrow \text{MINIMIZAR} \quad [galones] $$
 ### Restricciones
 
 1. $$ x1 \leq 300 \quad [galones/mes] $$
@@ -35,6 +35,11 @@ $$ Z = x1 + x2 + x3 \rightarrow \text{MINIMIZAR} \quad [galones/$] $$
 6. $$ 800x1 + 1300x2 + 500x3 \geq 350 \quad [$/mes] $$
 
 ### Slacks
+##### Interpretacion de Slacks
+
+$≥ →-→$ ***Por* *encima* del minimo**
+
+$≤ →+→$  ***Por debajo* del minimo**
 
 - **s4:** Cantidad por encima del mínimo de combustible para el aeropuerto 1.
 - **s5:** Cantidad por encima del mínimo de combustible para el aeropuerto 2.

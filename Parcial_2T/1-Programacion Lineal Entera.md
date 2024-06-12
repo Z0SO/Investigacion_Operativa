@@ -17,12 +17,12 @@ La programación entera se utiliza para resolver problemas en los cuales las var
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdlUUlz_p14Mu_dpMMHiI6aoD-ZxSZoss3w9AqSHcF3pRDR5T4G58r9W5h1clsTHu0qg9GuGpDbeT3FXY0dgny1emQWAbVSZ6hgw4TAQrYUd83FsH2-91fN10dU56NU1pUUHApYH_RRglLqh3-lFjRqPEdK?key=iTPa6W9OMH7L3aG9DQ3z0g)
 
-#### ¿Cuáles son las características de un problema de costo fijo en Programación Lineal Entera?
+#### ¿Cuáles son las características de un problema de COSTO FIJO en Programación Lineal Entera?
 - **Costo fijo:** Involucra **variables** **binarias** *asociadas a las variables de decisión continuas*. Este tipo de problemas incluye dos tipos de costos: un costo fijo necesario para iniciar la actividad y un costo variable proporcional al nivel de la actividad.
 - **Función de costo:** Expresa la relación entre costos fijos y variables. Es analíticamente insoluble debido a una discontinuidad en \( x = 0 \).
 **![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcWRPMRCZWiGbEABl_TYQKPMJuI61m50NgCjHSjz0Nfyo_SIIyVx2EwBUEAvZOyjMSYGeHSlS1VoCU52iEXvLVWyRzFLVxrCNcU9uixKlmrhbExtCx5otFPvNCvQfADmM1viwDc1XKRRPiLMrNCNhVJJxo?key=iTPa6W9OMH7L3aG9DQ3z0g)**
 #### ¿Cuáles son las características de un problema de COBERTURA DE CONJUNTOS en Programación Lineal Entera?
-- **Variables:** Todas las variables son binarias.
+- **Variables:** Todas las variables son **binarias**.
 - **Restricciones:** Para cada restricción, todos los coeficientes del lado izquierdo son 0 o 1, y el lado derecho tiene la forma “≥1”.
 - **Función objetivo:** Minimiza siempre, con coeficientes estrictamente positivos que suelen representar costos.
 

@@ -77,7 +77,7 @@ El problema del flujo capacitado con costo mínimo busca determinar los flujos e
 #### Formulación con Programación Lineal
 La formulación del problema como un programa lineal es la base para el desarrollo del algoritmo simplex capacitado. La ecuación para el nodo \( j \) mide el flujo neto \( f_j \) en el nodo \( j \) de la siguiente manera:
 
-\[ \sum_{i} x_{ij} - \sum_{k} x_{jk} = f_j \]
+$[ \sum_{i} x_{ij} - \sum_{k} x_{jk} = f_j ]$
 
 El nodo \( j \) funciona como fuente si \( f_j > 0 \) y como sumidero si \( f_j < 0 \).
 
@@ -185,3 +185,6 @@ Los diagramas PERT son herramientas útiles para la gestión de proyectos, ya qu
 
 ### Resumen
 El método CPM permite calcular la ruta crítica y construir un cronograma eficiente, asegurando que las actividades críticas se programen adecuadamente y que las actividades no críticas se manejen con holgura para absorber demoras inesperadas. PERT, por su parte, añade un nivel de análisis probabilístico, proporcionando una visión más detallada y flexible del tiempo de finalización del proyecto y las incertidumbres asociadas. Ambos métodos son esenciales para la planificación y control de proyectos, facilitando la toma de decisiones informadas y optimizando la gestión del tiempo y los recursos.
+
+
+

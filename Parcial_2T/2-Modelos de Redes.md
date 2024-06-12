@@ -32,16 +32,23 @@ En el problema de la ruta más corta se determina la ruta entre una fuente y un 
 ## ¿Qué elementos distintivos tiene un problema del FLUJO MÁXIMO? ¿En qué consiste la enumeración de cortes? ¿Cuál es el mecanismo general de funcionamiento del algoritmo del flujo máximo?
 Un flujo viaja desde un único lugar de origen hacia un único lugar de destino a través de arcos que conectan nodos intermediarios. Los arcos tienen una capacidad máxima de flujo, y se trata de enviar desde la fuente al destino la mayor cantidad posible de flujo.
 
+**![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdbtO9EgvjMqfpRS1YadRk19ApsMoMR6VP3TUxwo2DzhYPcdGxFG4Bn_mKX8ZkaPT_njG1rKK2cASdmC5B6ApMIOmUvEO3B0hYYAw4vEn69fGAzUmrLVQ0Nl_dxtQGkY02iinc_xFlcRTH8V2-FuDvLGhM?key=iTPa6W9OMH7L3aG9DQ3z0g)**
+
 - **Flujo:** Circulación de unidades homogéneas de un lugar a otro, definida por la capacidad de unidades que pueden entrar por el nodo fuente y salir por el nodo destino.
 - **Capacidad de flujo:** Capacidad de unidades que pueden ser transportadas.
 
 **Enumeración de corte:**
 Un corte define un conjunto de arcos que, cuando se eliminan de la red, causan una interrupción total del flujo entre los nodos fuente y sumidero. La capacidad de corte es igual a la suma de las capacidades de los arcos.
 
+**![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdmtLfR5l3x0jFu-QkmrXsQvIKXNPJGsKBsqbK5ywC3c_2F9IRermksdT1ENZsw2lJCBELuhc7rN8zmMIAlp9krxzRzQ079COdkhuncYG40VZzJ-WbCyAZnAKKQfD8suDGJDzJGdWLvnpy-qVCdd33OYmnM?key=iTPa6W9OMH7L3aG9DQ3z0g)**
+
+
 **Algoritmo de Flujo Máximo:**
 1. Buscar caminos para aumentar el flujo hasta alcanzar el flujo máximo.
 2. Encontrar una ruta de penetración con un flujo positivo neto que una los nodos origen y destino.
 3. Actualizar las capacidades residuales a medida que se contribuye al flujo en el arco.
+
+
 
 **Pasos del algoritmo:**
 1. Igualar la capacidad residual con la capacidad inicial para todos los arcos (i, j).
@@ -106,12 +113,15 @@ Los métodos CPM (Critical Path Method) y PERT (Program Evaluation and Review Te
 ##### Representación en Red
 Cada actividad del proyecto se representa con un arco que apunta en la dirección de avance del proyecto. Los nodos de la red establecen las relaciones de precedencia entre las diferentes actividades del proyecto.
 
+**![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcGyMfOPf1CaI7TzV8mUiK1fZvJEdeIOc0rbActk49uguuCJ9YcWeYY5NiyyXlkhc_LbGIvjL3rsWDh4crjy1qZsM79EK_0UAVkh0958nelv22O4qGmoVxUa3Z6701ZFGFQkiQlkzERjaT_PffYuk9_4h_C?key=iTPa6W9OMH7L3aG9DQ3z0g)**
+
 **Reglas para Configurar la Red:**
-1. **Regla de Secuenciación:** Los nodos de inicio y fin de cada actividad deben reflejar la precedencia de las actividades.
-2. **Actividades Ficticias (Dummy):** Utilizar actividades ficticias para representar dependencias que no consumen tiempo o recursos, representadas normalmente con arcos de línea interrumpida.
+**![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfjcI1a31Egj3z-HSJ3q7kdfhbRhtLJNNrzMfroeP-F4kbuT4EuAcYh7zu-JjYEatGxMP4Z8zVTV2hoIT-8vTIIWl8TgTo2s5W1OHshkreTKTK5x3xTc9useht3AoOU4_gGu_IR5LwkyNVyNIt_gNlrXBY?key=iTPa6W9OMH7L3aG9DQ3z0g)**
 
 
 Por ejemplo:
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcnudNpPs2oXxEWx73Ebjb-0doI6dK15kUt6rwQeufBOatRwDYsoqKDYRHVE1-TPp70--WJSbR_RTwp-t1nVx6qjzqu-dO_7csKnij5rjqgxtceohEO6c44XXffRsZ-fD6LbMoYij5Zv2RO1FpQA6RyXoAA?key=iTPa6W9OMH7L3aG9DQ3z0g)
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdTglZPeEeEKQzK92Jeq52Nc_SbB-8r-y7yTRy6aJ_YO-apf1WqJUI_HtKXUZOblWIFUOSMOLMfe30QwZoc47chZj4YquMvk8dgKxzceOnNfmtq3hmFGsCCSulCGJ8qJxHKSw3MdyRi5PfqiLdznV2gUIE3?key=iTPa6W9OMH7L3aG9DQ3z0g)
 
 
 

@@ -10,6 +10,9 @@ La teoría de stock se ocupa de estudiar y determinar las políticas óptimas de
    - **Stock Medio**: El valor medio del stock es \(q/2\), donde \(q\) es el tamaño del lote de reabastecimiento.
    - **Curva de Demanda**: La demanda en función del tiempo puede representarse como un diagrama de "diente de sierra".
 
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdDEUdIn0K_13ujVansC8H5F08i-fqu51nrcd-Zz9QHARmMrN6m6jNDwhdKU3RkDGvXduJ_ZPq4po44OfkwWgPFdOnOja6-3im6ISccOhATFEGMcRKqIe75bDA32BAkhryEUJ_N-xXwveRhh5FFgdzVqfQ?key=iTPa6W9OMH7L3aG9DQ3z0g)
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfeFCy-8HPSEVD2Dv-E181wNGoW_qbvz3YDDI6106_hF_BltqiVCgiq9hIaPfvriR0vd3oDc3W3DGBqpGhqOa20i6qMLOGV9-d_q-Q_Ux7fEGW0WppVQA6_vxTTQ4baog9zl5vmLnY7bxBwKOT-eLv3WME?key=iTPa6W9OMH7L3aG9DQ3z0g)
+
 2. **Modelo de Stock Simple sin Agotamiento y con Stock de Protección**
    - **Stock de Protección**: Se mantiene un stock mínimo (\(Sp\)) para cubrir eventualidades y evitar el desabastecimiento.
    - **Reordenes**: Los reabastecimientos se realizan antes de que el inventario caiga por debajo del nivel de protección.
@@ -18,15 +21,24 @@ La teoría de stock se ocupa de estudiar y determinar las políticas óptimas de
    - **Agotamiento Permitido**: Se permite que ocasionalmente el inventario se agote, lo que introduce un costo de desabastecimiento en el modelo.
    - **Costo de Almacenamiento vs. Costo de Desabastecimiento**: Este modelo es útil cuando los costos de almacenamiento son altos y se prefiere aceptar el riesgo de desabastecimiento.
 
+![[Pasted image 20240612145740.png]]
+
+
 4. **Modelo Triangular**
    - **Reposición No Instantánea**: La reposición de inventarios no es instantánea y ocurre a medida que se produce.
    - **Producción vs. Demanda**: Se asume que la tasa de producción (\(p\)) es mayor que la demanda (\(d\)). El stock se acumula durante el periodo de producción y luego se consume.
    - **Velocidad de Producción**: Puede ser constante o dependiente del tiempo.
 
+![[Pasted image 20240612145755.png]]
+
+
 5. **Modelo Simple sin Agotamiento con Precios Variables**
    - **Costos de Adquisición Variables**: El costo de adquisición o producción varía en función del tamaño del lote. Esta variación puede ser continua y no lineal, o escalonada.
    - **Costo de Capital Inmovilizado**: Se incluye el costo del capital inmovilizado en el inventario.
    - **Optimización del Lote de Reabastecimiento**: Se busca el tamaño del lote que minimice el costo total esperado (\(CTE\)).
+
+
+![[Pasted image 20240612145816.png]]
 
 ### Resolución de Problemas de Stock
 

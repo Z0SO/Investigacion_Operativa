@@ -67,7 +67,7 @@ El problema del flujo capacitado con costo mínimo busca determinar los flujos e
 3. Todo nodo en la red puede funcionar como fuente o como sumidero.
 
 #### Representación en Red
-- Una red capacitada se denota como \( G = (N, A) \), donde \( N \) es el conjunto de nodos y \( A \) es el conjunto de arcos.
+- Una red capacitada se denota como $( G = (N, A) ), donde ( N )$ es el conjunto de nodos y \( A \) es el conjunto de arcos.
 - Se define:
   - \( x_{ij} \): Cantidad de flujo del nodo \( i \) al nodo \( j \).
   - \( u_{ij} \) (\( l_{ij} \)): Capacidad máxima (mínima) del arco \( (i, j) \).
@@ -122,3 +122,66 @@ Ambos métodos, CPM y PERT, proporcionan una representación visual y analítica
 - **Flujo Capacitado con Costo Mínimo:** Busca minimizar el costo total del flujo en una red, cumpliendo con las restricciones de capacidad y balanceo de oferta-demanda.
 - **Algoritmo Simplex de Red Capacitada:** Utiliza una estructura de red para optimizar los flujos y costos, partiendo de una solución básica inicial y actualizando iterativamente los flujos.
 - **Métodos CPM y PERT:** Herramientas de planificación de proyectos que difieren en la suposición de duraciones determinísticas (CPM) vs. probabilísticas (PERT), pero comparten una representación en red y el objetivo de optimizar la programación y control de actividades del proyecto.
+
+### Cálculo de la Ruta Crítica (CPM)
+
+#### Pasos para Calcular la Ruta Crítica
+El cálculo de la ruta crítica en un proyecto implica determinar las actividades críticas, es decir, aquellas actividades que no tienen margen de tiempo (holgura) en su programación y que, por tanto, determinan la duración total del proyecto. Para lograr esto, se siguen dos pasos principales: el paso hacia adelante y el paso hacia atrás.
+
+##### Paso Hacia Adelante
+1. **Calcular los Tiempos Más Tempranos**:
+   - **Tiempo más temprano de inicio de una actividad** \( E_i \): Es el tiempo más temprano en que puede comenzar una actividad sin demorar el proyecto.
+   - **Tiempo más temprano de finalización de una actividad** \( E_j \): Es el tiempo más temprano en que puede finalizar una actividad.
+   - Para cada nodo \( j \):
+     \[ E_j = \max (E_i + D_{ij}) \]
+     donde \( E_i \) es el tiempo más temprano de inicio del nodo predecesor \( i \) y \( D_{ij} \) es la duración de la actividad de \( i \) a \( j \).
+
+##### Paso Hacia Atrás
+2. **Calcular los Tiempos Más Tardíos**:
+   - **Tiempo más tardío de finalización de una actividad** \( L_j \): Es el tiempo más tardío en que una actividad puede finalizar sin demorar el proyecto.
+   - **Tiempo más tardío de inicio de una actividad** \( L_i \): Es el tiempo más tardío en que una actividad puede comenzar sin demorar el proyecto.
+   - Para cada nodo \( i \):
+     \[ L_i = \min (L_j - D_{ij}) \]
+     donde \( L_j \) es el tiempo más tardío de finalización del nodo sucesor \( j \).
+
+##### Condiciones para que una Actividad sea Crítica
+Una actividad \( (i, j) \) es crítica si cumple con las siguientes tres condiciones:
+1. \( E_i = L_i \)
+2. \( E_j = L_j \)
+3. \( L_i - E_i = 0 \)
+
+Esto indica que los tiempos más tempranos y más tardíos de inicio y finalización de la actividad son iguales, y que la duración \( D_{ij} \) se ajusta exactamente al intervalo especificado de tiempo.
+
+### Construcción del Cronograma
+
+#### Desarrollo del Programa de Tiempos
+Para desarrollar un cronograma adecuado, se deben considerar los tiempos de inicio más temprano y más tardío de las actividades. Las actividades críticas deben programarse una inmediatamente después de la otra para asegurar que el proyecto se complete dentro del tiempo especificado. Las actividades no críticas se pueden programar con holgura, permitiendo flexibilidad en caso de demoras inesperadas.
+
+**Observaciones Importantes:**
+1. **Actividades Críticas**: Deben programarse consecutivamente para asegurar que el proyecto se termine a tiempo.
+2. **Actividades No Críticas**: Se pueden iniciar lo más temprano posible para absorber demoras inesperadas. Esto es preferible ya que garantiza que el programa resultante sea factible y no viole relaciones de precedencia.
+
+### Método PERT
+
+#### Diferencias entre PERT y CPM
+- **CPM (Critical Path Method)**: Supone duraciones determinísticas de las actividades.
+- **PERT (Program Evaluation and Review Technique)**: Supone duraciones probabilísticas y utiliza tres estimaciones para calcular la duración esperada de las actividades: tiempo optimista (a), tiempo más probable (m) y tiempo pesimista (b).
+
+#### Cálculo en PERT
+1. **Tiempo Promedio de Duración**:
+   \[ D' = \frac{a + 4m + b}{6} \]
+2. **Varianza**:
+   \[ v = \left(\frac{b - a}{6}\right)^2 \]
+
+Los cálculos de la ruta crítica se pueden aplicar de manera similar al CPM, pero usando \( D' \) en lugar de una estimación única \( D \). Las variables de tiempo temprano y tiempo programado especificado se manejan como variables aleatorias.
+
+### Utilidad de los Diagramas PERT para la Toma de Decisiones
+Los diagramas PERT son herramientas útiles para la gestión de proyectos, ya que proporcionan una representación gráfica clara de las tareas necesarias para completar un proyecto. Ayudan a:
+
+- Aclarar las limitaciones de tiempo.
+- Ofrecer una vista detallada de la secuencia de tareas.
+- Gestionar el tiempo y los recursos con mayor eficiencia.
+- Reducir costos y desperdicios en el desarrollo del proyecto.
+
+### Resumen
+El método CPM permite calcular la ruta crítica y construir un cronograma eficiente, asegurando que las actividades críticas se programen adecuadamente y que las actividades no críticas se manejen con holgura para absorber demoras inesperadas. PERT, por su parte, añade un nivel de análisis probabilístico, proporcionando una visión más detallada y flexible del tiempo de finalización del proyecto y las incertidumbres asociadas. Ambos métodos son esenciales para la planificación y control de proyectos, facilitando la toma de decisiones informadas y optimizando la gestión del tiempo y los recursos.

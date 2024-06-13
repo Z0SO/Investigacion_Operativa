@@ -19,20 +19,21 @@ Los métodos principales para resolver problemas de programación lineal entera 
 - **Método de Ramificación y Acotamiento (Branch and Bound):** Se basa en dividir el problema en subproblemas más pequeños y acotar las soluciones posibles.
 - **Método de Planos de Corte (Cutting Planes):** *Agrega restricciones* adicionales al problema *para eliminar soluciones no enteras* y acercarse a la solución entera óptima.
 
-## Modelo de Inventario
-Los modelos de inventario se utilizan para determinar las políticas óptimas de gestión de inventarios, respondiendo a preguntas como cuánto y cuándo ordenar. Los modelos pueden ser determinísticos o probabilísticos, y pueden incluir costos de pedido, almacenamiento y faltantes.
-
 ## ¿Qué es un inventario?
+- Un inventario es la **cantidad de artículos que son almacenados** y **se mantienen inactivos en un instante de tiempo** dado.
+- Incluye la *cantidad de productos*, sus *características* y su *estado*.
 
-- Un inventario es la cantidad de artículos que son almacenados y se mantienen inactivos en un instante de tiempo dado.
-- Incluye la cantidad de productos, sus características y su estado.
+## Modelo de Inventario
+- Los modelos de inventario se utilizan para **determinar las formas o políticas óptimas de gestión de inventarios**, respondiendo a preguntas **como cuánto y cuándo ordenar**. 
+- Los modelos pueden ser **determinísticos** o **probabilísticos**, y pueden incluir *costos de pedido, almacenamiento y faltantes*.
+
 
 ## ¿Cuántos costos se manejan en un modelo de inventario?
 En un modelo de inventario se manejan principalmente tres tipos de costos:
 1. **Costo de Pedido o Preparación:** Costo asociado a realizar un pedido o preparar una producción.
 2. **Costo de Mantenimiento o Almacenamiento:** Costo de mantener inventario en stock, incluyendo almacenamiento, seguros, y deterioro.
 3. **Costo de Faltante:** Costo asociado a no poder satisfacer la demanda, incluyendo pérdida de ventas y penalizaciones.
-4. **Costo de Producto:** Costo de adquisición o de producción. Supondremos que es el costo unitario, independiente (salvo para un modelo en especial) de la cantidad comprada.
+4. **Costo de Producto:** Costo de adquisición o de producción. Supondremos que es el **costo unitario**, independiente (salvo para un modelo en especial) de la cantidad comprada.
 
 ## Diferencia entre un costo faltante y un costo de mantenimiento (ejemplo)
 - **Costo de Mantenimiento:** Es el costo incurrido por mantener inventario en stock. Por ejemplo, si una empresa mantiene 100 unidades de un producto en su almacén, incurrirá en costos de almacenamiento, seguros y deterioro de esos productos.

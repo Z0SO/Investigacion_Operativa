@@ -49,18 +49,8 @@ Un corte define un conjunto de arcos que, cuando se eliminan de la red, causan u
 3. Actualizar las capacidades residuales a medida que se contribuye al flujo en el arco.
 
 
-
-**Pasos del algoritmo:**
-1. Igualar la capacidad residual con la capacidad inicial para todos los arcos (i, j).
-2. Etiquetar el nodo fuente 1 con [∞, -].
-3. Determinar el conjunto de nodos j no etiquetados alcanzables directamente desde el nodo i con arcos residuales positivos.
-4. Etiquetar el nodo k con [𝑎𝑘, i] si k = n, y si se encuentra una ruta de irrupción, proceder al paso 5.
-5. Definir los nodos de la ruta de irrupción del nodo fuente 1 al nodo destino n.
-6. Calcular el flujo máximo de la ruta y actualizar las capacidades residuales.
-
 **Solución:**
 El flujo máximo en la red se determina al detectar las rutas de irrupción y calcular el flujo óptimo en cada arco. La capacidad residual final se utiliza para obtener el flujo óptimo.
-
 
 
 ## Problema del Flujo Capacitado con Costo Mínimo

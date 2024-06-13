@@ -5,11 +5,47 @@
 - Estos costos incluyen el costo de **almacenamiento**, costo de **desabastecimiento**, y otros costos relacionados con la gestión de inventarios.
 - El **objetivo es encontrar un equilibrio** entre mantener un inventario suficiente para *satisfacer la demanda* y *minimizar los costos asociados*.
 
+
+Claro, aquí te proporciono una explicación breve y clara de cada modelo de inventario mencionado, junto con su aplicación típica:
+
+### Modelos de Inventario
+
+#### Stocks con Demanda Determinística
+
+**MODELO I: Modelo de Wilson**
+
+**MODELO II: Demanda constante con Inventario de Contingencia (Modelo con Stock de Protección)**
+- **Descripción**: Incluye un stock de protección para manejar errores de estimación en la demanda.
+- **Aplicación**: Ideal para productos donde la demanda puede variar o hay incertidumbre en las estimaciones, asegurando disponibilidad en caso de fluctuaciones imprevistas.
+
+**MODELO III: Demanda constante con Agotamiento o Escasez**
+
+
+**MODELO IV: Stock con Producción y Demanda Conjunta (Modelo Triangular)**
+
+
+**MODELO V: Stock sin Agotamiento con Costos de Compra Variables (Descuento por Cantidad)**
+
+#### Stocks con Demanda Aleatoria
+
+**Modelo de Período Único (sin Agotamiento de Stock)**
+- **Descripción**: Calcula el tamaño del lote de pedido óptimo considerando la incertidumbre en la demanda.
+- **Aplicación**: Adecuado para artículos con alta variabilidad en la demanda o cuando el costo de no satisfacer la demanda (agotamiento) es significativo.
+
+### Aplicaciones Típicas
+
+- **Modelos con Demanda Determinística**: Son utilizados en entornos donde la demanda es predecible o estable, permitiendo una gestión eficiente del inventario y minimizando los costos asociados.
+  
+- **Modelos con Demanda Aleatoria**: Se emplean cuando la demanda varía de manera impredecible, ayudando a mitigar los riesgos de agotamiento del stock y optimizando los niveles de inventario bajo incertidumbre.
+
 # Modelos de Inventario
 
 ## Stocks con Demanda DETERMINISTICA
 
 ### Modelo I: Modelo de Wilson
+- **Descripción**: Este modelo asume una demanda determinística y constante, sin agotamiento del stock.
+- **Aplicación**: Se utiliza para gestionar inventarios cuando la demanda es estable y predecible, como en artículos de consumo regular.
+
 - **Demanda:** Determinística y constante.
 - **![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXfSxEBaJ1rpSVwEbDJcBTSob-3oPutZSZyCz25kIYimaAhIkUnepAY8SzVdq7IyBz30e3ZBSeGBFTgh0yKYRSeoGVITtLLlQDhhbszy6-wGdUXfUz7KGLrCvObMVYqbrBbZeep_pHlKq9sC_CXrd9mngu4?key=ESjnCozrK6HeQO4PkjCJug)**
 - **Características:** 
@@ -30,12 +66,16 @@
   - Utiliza un stock mínimo de protección
 
 ### Modelo III: Demanda Constante con Agotamiento
+- - **Descripción**: Acepta la posibilidad de agotamiento del stock, es decir, permite que ocurran situaciones donde no se puede satisfacer toda la demanda.
+- **Aplicación**: Útil cuando los costos de mantener inventario adicional son altos y se prefieren políticas más flexibles que puedan manejar faltantes ocasionales.
 - **Características:**
   - Permite faltantes de inventario.
   - No permitido en el Modelo I.
   - ![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXckvy_NNa3gZlYlxtSXeOLe7CVjmGLG9DApB7WzPqZVGaDWhspjL2sadW3r_3A-WzTyLaB6t5bmY4x-R-S0NtG6I6b1GM9n9sEUOY4hwfF4Wu-VinDhVmXbafNtKhzugtj_NZKiJrtpBnYfkq9Rbgj2UUjZ?key=ESjnCozrK6HeQO4PkjCJug)
 
 ### Modelo IV: Stock con Producción y Demanda Conjunta (Modelo Triangular)
+- **Descripción**: Considera la producción y la demanda simultáneamente, con un tiempo de reposición no instantáneo.
+- **Aplicación**: Aplicable a productos manufacturados donde la reposición no es inmediata, como en industrias de producción continua.
 - **Características:**
   - La reposición no es instantánea.
   - Aplicable a ítems almacenados a medida que termina la producción.
@@ -43,9 +83,12 @@
 ![300x200](https://lh7-us.googleusercontent.com/docsz/AD_4nXfi9qz7_1HmjAYlZglx_hFjYDQTrsZ-3C_1yFCKLQjDtrr0G_456uUP71Ba7v4hQUpN3FEVfrCGjJ3oMr92jyRJOuxkCM_vX1QzI-KBUJMwEOoIeTJfelTZr4xDwBqconVgkz7h-ufO7tUJpR3Lsp5dxtKW?key=ESjnCozrK6HeQO4PkjCJug)
 
 ### Modelo V: Stock sin Agotamiento con Descuento por Cantidad
+- **Descripción**: Incorpora descuentos por volumen en los costos de compra, incentivando pedidos en grandes cantidades.
+- **Aplicación**: Se utiliza para maximizar el beneficio al comprar grandes cantidades, considerando tanto los costos de mantenimiento como los descuentos por compra al por mayor.
+
 - **Características:**
   - Costos de compra variables según el tamaño del lote.
-  - El costo unitario decrece exponencialmente y se estabiliza.
+  - El costo unitario **decrece exponencialmente** y **se estabiliza**.
   - Costos de mantenimiento incluyen el costo del dinero inmovilizado y otros costos adicionales.
 
 **![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXcqbiq7Bw-BQOxjfkZ3KSJ430aRe2aW4iDXrJdAGXh0Ecf5-cn54r6bWOQzbFC-xPnIIw1Jw_u-_x_2eVsMzlZvMBZhtakb2YENSqad-pmLKlvHR0nDfef89Bw38WiP6JC9srALkweBycGpqsgVawraBJwx?key=ESjnCozrK6HeQO4PkjCJug)**

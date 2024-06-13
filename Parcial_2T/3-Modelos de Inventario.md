@@ -8,39 +8,17 @@
 
 Claro, aquí te proporciono una explicación breve y clara de cada modelo de inventario mencionado, junto con su aplicación típica:
 
-### Modelos de Inventario
 
-#### Stocks con Demanda Determinística
-
-**MODELO I: Modelo de Wilson**
-
-**MODELO II: Demanda constante con Inventario de Contingencia (Modelo con Stock de Protección)**
-- **Descripción**: Incluye un stock de protección para manejar errores de estimación en la demanda.
-- **Aplicación**: Ideal para productos donde la demanda puede variar o hay incertidumbre en las estimaciones, asegurando disponibilidad en caso de fluctuaciones imprevistas.
-
-**MODELO III: Demanda constante con Agotamiento o Escasez**
-
-
-**MODELO IV: Stock con Producción y Demanda Conjunta (Modelo Triangular)**
-
-
-**MODELO V: Stock sin Agotamiento con Costos de Compra Variables (Descuento por Cantidad)**
-
-#### Stocks con Demanda Aleatoria
 
 **Modelo de Período Único (sin Agotamiento de Stock)**
-- **Descripción**: Calcula el tamaño del lote de pedido óptimo considerando la incertidumbre en la demanda.
-- **Aplicación**: Adecuado para artículos con alta variabilidad en la demanda o cuando el costo de no satisfacer la demanda (agotamiento) es significativo.
 
-### Aplicaciones Típicas
-
-- **Modelos con Demanda Determinística**: Son utilizados en entornos donde la demanda es predecible o estable, permitiendo una gestión eficiente del inventario y minimizando los costos asociados.
-  
-- **Modelos con Demanda Aleatoria**: Se emplean cuando la demanda varía de manera impredecible, ayudando a mitigar los riesgos de agotamiento del stock y optimizando los niveles de inventario bajo incertidumbre.
 
 # Modelos de Inventario
 
 ## Stocks con Demanda DETERMINISTICA
+
+> Son utilizados en entornos donde la demanda es predecible o estable, permitiendo una gestión eficiente del inventario y minimizando los costos asociados.
+  
 
 ### Modelo I: Modelo de Wilson
 - **Descripción**: Este modelo asume una demanda determinística y constante, sin agotamiento del stock.
@@ -60,13 +38,16 @@ Claro, aquí te proporciono una explicación breve y clara de cada modelo de inv
 - **Costo de Almacenamiento (c1):** Incluye costos reales (seguros, impuestos, alquiler, etc.) y el costo de oportunidad.
 - **Costo de Escasez (c2):** Aparece en modelos con ruptura de stock, implica ingresos retrasados y pérdida de prestigio.
 - **![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXfaFRnsxv1sUTh05QHX2e9yOrsF1IQRULtmgd1GaYKBmIs17Pq2r7g75B-t9741UrBl2M0WYKFQosa8fkKrL2Kw2pFJOMOGaafVFAfvZdmZdQgTRAoY4aRruhegqfH86TZ4q7deZVWkABxtBH0sOz9QNhF9?key=ESjnCozrK6HeQO4PkjCJug)**
-### Modelo II: Demanda Constante con Inventario de Contingencia
+### Modelo II: Demanda Constante con Inventario de Emergencia
+-  **Descripción**: Incluye un *stock de protección* para manejar errores de estimación en la demanda.
+- **Aplicación**: Ideal para productos donde la demanda puede variar o hay incertidumbre en las estimaciones, asegurando disponibilidad en caso de fluctuaciones imprevistas.
+
 - **Características:**
   - Incluye un inventario de contingencia para cubrir errores de estimación.
   - Utiliza un stock mínimo de protección
 
 ### Modelo III: Demanda Constante con Agotamiento
-- - **Descripción**: Acepta la posibilidad de agotamiento del stock, es decir, permite que ocurran situaciones donde no se puede satisfacer toda la demanda.
+-  **Descripción**: Acepta la posibilidad de agotamiento del stock, es decir, *permite que ocurran situaciones donde no se puede satisfacer toda la demanda*.
 - **Aplicación**: Útil cuando los costos de mantener inventario adicional son altos y se prefieren políticas más flexibles que puedan manejar faltantes ocasionales.
 - **Características:**
   - Permite faltantes de inventario.
@@ -74,7 +55,7 @@ Claro, aquí te proporciono una explicación breve y clara de cada modelo de inv
   - ![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXckvy_NNa3gZlYlxtSXeOLe7CVjmGLG9DApB7WzPqZVGaDWhspjL2sadW3r_3A-WzTyLaB6t5bmY4x-R-S0NtG6I6b1GM9n9sEUOY4hwfF4Wu-VinDhVmXbafNtKhzugtj_NZKiJrtpBnYfkq9Rbgj2UUjZ?key=ESjnCozrK6HeQO4PkjCJug)
 
 ### Modelo IV: Stock con Producción y Demanda Conjunta (Modelo Triangular)
-- **Descripción**: Considera la producción y la demanda simultáneamente, con un tiempo de reposición no instantáneo.
+- **Descripción**: *Considera la producción y la demanda simultáneamente*, con un tiempo de reposición no instantáneo.
 - **Aplicación**: Aplicable a productos manufacturados donde la reposición no es inmediata, como en industrias de producción continua.
 - **Características:**
   - La reposición no es instantánea.
@@ -95,7 +76,13 @@ Claro, aquí te proporciono una explicación breve y clara de cada modelo de inv
 
 ## Stocks con Demanda Aleatoria
 
+> Se emplean cuando la demanda varía de manera impredecible, ayudando a mitigar los riesgos de agotamiento del stock y optimizando los niveles de inventario bajo incertidumbre.
+
+
 ### Modelo de Período Único (sin Agotamiento de Stock)
+-  **Descripción**: Calcula el tamaño del lote de pedido óptimo considerando la incertidumbre en la demanda.
+- **Aplicación**: Adecuado para artículos con alta variabilidad en la demanda o cuando el costo de no satisfacer la demanda (agotamiento) es significativo.
+
 - **Características:**
   - Determina la probabilidad de cada tipo de demanda.
   - Calcula el lote que minimiza el Costo Total Esperado (CTE).

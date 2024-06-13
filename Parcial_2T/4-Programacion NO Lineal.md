@@ -1,5 +1,36 @@
 
-# PROGRAMACIÓN NO LINEAL
+## Programación No Lineal
+
+### Definición clara y precisa de Programación No Lineal
+La **programación no lineal (PNL)** es una técnica de optimización donde la función objetivo o las *restricciones son no lineales*. Formalmente, un problema de PNL se expresa como:
+
+$$
+\text{Minimizar (o Maximizar)} \; f(x)
+$$
+$$
+\text{sujeto a:} \; g_i(x) \leq 0, \; i = 1, 2, \ldots, m
+$$
+$$
+h_j(x) = 0, \; j = 1, 2, \ldots, p
+$$
+$$
+x \in \mathbb{R}^n
+$$
+
+### ¿Para qué se utiliza la Programación No Lineal?
+Se utiliza para resolver problemas donde las relaciones entre variables son no lineales, aplicándose en:
+- **Ingeniería:** Diseño óptimo de estructuras.
+- **Economía y Finanzas:** Optimización de portafolios.
+- **Ciencia y Tecnología:** Modelos de crecimiento.
+- **Gestión de Recursos:** Uso eficiente de recursos naturales.
+
+### Diferencias con la Programación Lineal Convencional
+- **Linealidad:** PL tiene funciones lineales, PNL no.
+- **Complejidad:** PNL es más compleja y difícil de resolver.
+- **Métodos de Solución:** PL usa método simplex, PNL utiliza métodos como el gradiente descendente y algoritmos genéticos.
+- **Aplicaciones:** PL es adecuada para problemas con relaciones lineales, PNL para problemas más complejos y realistas.
+
+
 
 ## Diferencia entre los métodos: Jacobiano, Lagrange, y Kuhn-Tucker
 

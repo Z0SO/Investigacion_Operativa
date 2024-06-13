@@ -43,7 +43,7 @@ En la programación no lineal, existen varios métodos para resolver problemas c
 
 #### Método de Jacobi/Gradiente
 
-El método de Jacobi, también conocido como método del gradiente, se utiliza para resolver un sistema de ecuaciones no lineales iterativamente. La fórmula utilizada para actualizar las variables es la siguiente:
+El método de Jacobi, también conocido como *método del* **gradiente**, *se utiliza para resolver un sistema de ecuaciones no lineales iterativamente*. La fórmula utilizada para actualizar las variables es la siguiente:
 
 $$
 x_i^{(k+1)} = x_i^{(k)} - \alpha \frac{\left[\nabla f(x^{(k)})\right]_i}{\left[\nabla g_j(x^{(k)})\right]_i}
@@ -51,7 +51,7 @@ $$
 
 - **Gradiente:** Determina la dirección en la que nos acercaremos al punto óptimo.
 - **Multiplicador $\alpha$:** Determina cuánto nos moveremos en la dirección del gradiente.
-- **Iterativo:** El proceso se repite hasta que el gradiente indique que no hay más aumento o disminución.
+- **Iterativo:** El proceso se repite hasta que el *gradiente indique que no hay más aumento o disminución*.
 
 ##### ¿Para qué se usa el método jacobiano?
 Se utiliza principalmente para resolver sistemas de ecuaciones no lineales iterativamente.

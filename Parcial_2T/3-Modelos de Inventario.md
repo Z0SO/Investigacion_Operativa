@@ -60,12 +60,12 @@ Claro, aquí te proporciono una explicación breve y clara de cada modelo de inv
 - **Características:**
   - La reposición no es instantánea.
   - Aplicable a ítems almacenados a medida que termina la producción.
-  - La demanda se mide por unidad de tiempo (d).
+  - *La demanda se mide por unidad de tiempo* (d).
 ![300x200](https://lh7-us.googleusercontent.com/docsz/AD_4nXfi9qz7_1HmjAYlZglx_hFjYDQTrsZ-3C_1yFCKLQjDtrr0G_456uUP71Ba7v4hQUpN3FEVfrCGjJ3oMr92jyRJOuxkCM_vX1QzI-KBUJMwEOoIeTJfelTZr4xDwBqconVgkz7h-ufO7tUJpR3Lsp5dxtKW?key=ESjnCozrK6HeQO4PkjCJug)
 
 ### Modelo V: Stock sin Agotamiento con Descuento por Cantidad
-- **Descripción**: Incorpora descuentos por volumen en los costos de compra, incentivando pedidos en grandes cantidades.
-- **Aplicación**: Se utiliza para maximizar el beneficio al comprar grandes cantidades, considerando tanto los costos de mantenimiento como los descuentos por compra al por mayor.
+- **Descripción**: Incorpora **descuentos por volumen** en los costos de compra, *incentivando pedidos en grandes cantidades.*
+- **Aplicación**: Se utiliza para maximizar el beneficio al comprar grandes cantidades, **considerando tanto los costos de mantenimiento como los descuentos por compra al por mayor**.
 
 - **Características:**
   - Costos de compra variables según el tamaño del lote.
@@ -76,11 +76,11 @@ Claro, aquí te proporciono una explicación breve y clara de cada modelo de inv
 
 ## Stocks con Demanda Aleatoria
 
-> Se emplean cuando la demanda varía de manera impredecible, ayudando a mitigar los riesgos de agotamiento del stock y optimizando los niveles de inventario bajo incertidumbre.
+> Se emplean cuando **la demanda varía de manera impredecible**, ayudando a mitigar los riesgos de agotamiento del stock y optimizando los niveles de inventario bajo incertidumbre.
 
 
 ### Modelo de Período Único (sin Agotamiento de Stock)
--  **Descripción**: Calcula el tamaño del lote de pedido óptimo considerando la incertidumbre en la demanda.
+-  **Descripción**: *Calcula el tamaño del lote de pedido óptimo considerando* la incertidumbre en la demanda.
 - **Aplicación**: Adecuado para artículos con alta variabilidad en la demanda o cuando el costo de no satisfacer la demanda (agotamiento) es significativo.
 
 - **Características:**

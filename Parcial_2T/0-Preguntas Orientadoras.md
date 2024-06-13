@@ -41,13 +41,13 @@ En un modelo de inventario se manejan principalmente tres tipos de costos:
 ## ¿Para qué se usa un modelo u otro?
 - **Modelos Determinísticos:** Se utilizan cuando la demanda y otros parámetros son conocidos y constantes.
   - **Modelo I:** Modelo de Wilson. Demanda determinística y constante. Sin agotamiento.
-  - **Modelo II:** Demanda constante con inventario de contingencia (Modelo con Stock de Protección).
+  - **Modelo II:** Demanda constante con inventario de emergencia (Modelo con Stock de Protección).
   - **Modelo III:** Demanda constante con agotamiento. Se aceptan faltantes.
   - **Modelo IV:** Stock con producción y demanda conjunta (Modelo Triangular). La reposición no es instantánea.
   - **Modelo V:** Stock sin agotamiento con costos de compra variables según el tamaño del lote ordenado (Descuento por cantidad).
 
 - **Modelos Probabilísticos:** Se utilizan cuando hay incertidumbre en la demanda o en otros parámetros.
-  - **Modelo de Período Único (sin agotamiento de stock):** Se determina la probabilidad de cada tipo de demanda y se calcula el lote que minimiza el CTE. Se utiliza para ítems con alto costo unitario, costo de almacenamiento despreciable, alto costo de agotamiento y obsolescencia rápida.
+  - **Modelo de Período Único (sin agotamiento de stock):** Se determina la probabilidad de cada tipo de demanda y calcula el lote que minimiza el Costo Total Esperado. Se utiliza para ítems con alto costo unitario, costo de almacenamiento despreciable, alto costo de agotamiento y obsolescencia rápida.
 
 ## ¿Cuáles son los tipos de inventario?
 - **Materia Prima:** Materiales básicos utilizados en la producción.

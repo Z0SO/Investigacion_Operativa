@@ -5,14 +5,6 @@
 - Estos costos incluyen el costo de **almacenamiento**, costo de **desabastecimiento**, y otros costos relacionados con la gestión de inventarios.
 - El **objetivo es encontrar un equilibrio** entre mantener un inventario suficiente para *satisfacer la demanda* y *minimizar los costos asociados*.
 
-
-Claro, aquí te proporciono una explicación breve y clara de cada modelo de inventario mencionado, junto con su aplicación típica:
-
-
-
-**Modelo de Período Único (sin Agotamiento de Stock)**
-
-
 # Modelos de Inventario
 
 ## Stocks con Demanda DETERMINISTICA
@@ -84,7 +76,7 @@ Claro, aquí te proporciono una explicación breve y clara de cada modelo de inv
 - **Aplicación**: Adecuado para artículos con alta variabilidad en la demanda o cuando el costo de no satisfacer la demanda (agotamiento) es significativo.
 
 - **Características:**
-  - Determina la probabilidad de cada tipo de demanda.
+  - *Determina la probabilidad de cada tipo de demanda*.
   - Calcula el lote que minimiza el Costo Total Esperado (CTE).
   - Aplicable a ítems con alto costo unitario, almacenamiento despreciable, alto costo de agotamiento y obsolescencia rápida.
 

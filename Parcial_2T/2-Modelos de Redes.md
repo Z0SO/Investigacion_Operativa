@@ -58,7 +58,6 @@ El flujo máximo en la red se determina al detectar las rutas de irrupción y ca
 #### Descripción del Problema
 El problema del flujo capacitado con costo mínimo busca determinar los flujos en los distintos arcos de una red de transporte que minimizan el costo total y satisfacen las restricciones de flujo, así como las cantidades de oferta y demanda en los nodos.
 
-
 #### Algoritmo Simplex de Red Capacitada
 El objetivo del algoritmo es aprovechar la estructura especial de red del modelo de flujo con costo mínimo. La red debe satisfacer la condición de balanceo de flujo:
 

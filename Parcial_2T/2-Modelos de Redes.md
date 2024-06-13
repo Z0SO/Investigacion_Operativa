@@ -16,7 +16,7 @@ Las situaciones en las que se pueden aplicar estos algoritmos también se pueden
 
 6. **Árbol de expansión:** Un árbol que enlaza todos los nodos de la red.
 
-## ¿Cuál es el mecanismo general de funcionamiento del algoritmo del Árbol de Extensión Mínima?
+## Algoritmo del Árbol de Extensión Mínima
 El algoritmo de árbol de expansión mínima enlaza los nodos de una red, en forma directa o indirecta, con la mínima longitud de las ramas enlazantes. 
 
 **Procedimiento:**
@@ -24,12 +24,13 @@ El algoritmo de árbol de expansión mínima enlaza los nodos de una red, en for
 2. Ck = Conjunto de nodos conectados en forma permanente en la iteración k.
 3. Ck' = Conjunto de nodos que todavía se deben conectar en forma permanente.
 
-## ¿Cuáles son las características del problema de la RUTA MÁS CORTA? ¿Cómo se formula el problema? ¿Cómo funciona el algoritmo de resolución?
+## Problema de la Ruta mas Corta
+
 En el problema de la ruta más corta se determina la ruta entre una fuente y un destino en una red de transporte. Existen dos algoritmos para resolver redes tanto cíclicas como acíclicas:
 - **Algoritmo de Dijkstra:** Determina las rutas más cortas entre el nodo fuente y todos los demás nodos de la red.
 - **Algoritmo de Floyd:** Permite determinar la ruta más corta entre dos nodos cualesquiera en la red.
 
-## ¿Qué elementos distintivos tiene un problema del FLUJO MÁXIMO? ¿En qué consiste la enumeración de cortes? ¿Cuál es el mecanismo general de funcionamiento del algoritmo del flujo máximo?
+## Problema del FLUJO MÁXIMO
 Un flujo viaja desde un único lugar de origen hacia un único lugar de destino a través de arcos que conectan nodos intermediarios. Los arcos tienen una capacidad máxima de flujo, y se trata de enviar desde la fuente al destino la mayor cantidad posible de flujo.
 
 **![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdbtO9EgvjMqfpRS1YadRk19ApsMoMR6VP3TUxwo2DzhYPcdGxFG4Bn_mKX8ZkaPT_njG1rKK2cASdmC5B6ApMIOmUvEO3B0hYYAw4vEn69fGAzUmrLVQ0Nl_dxtQGkY02iinc_xFlcRTH8V2-FuDvLGhM?key=iTPa6W9OMH7L3aG9DQ3z0g)**
@@ -98,22 +99,6 @@ Ambos métodos, CPM y PERT, proporcionan una representación visual y analítica
 #### Pasos para Calcular la Ruta Crítica
 El cálculo de la ruta crítica en un proyecto implica determinar las actividades críticas, es decir, aquellas actividades que no tienen margen de tiempo (holgura) en su programación y que, por tanto, determinan la duración total del proyecto. Para lograr esto, se siguen dos pasos principales: el paso hacia adelante y el paso hacia atrás.
 
-##### Paso Hacia Adelante
-1. **Calcular los Tiempos Más Tempranos**:
-   - **Tiempo más temprano de inicio de una actividad** \( E_i \): Es el tiempo más temprano en que puede comenzar una actividad sin demorar el proyecto.
-   - **Tiempo más temprano de finalización de una actividad** \( E_j \): Es el tiempo más temprano en que puede finalizar una actividad.
-   - Para cada nodo \( j \):
-     \[ E_j = \max (E_i + D_{ij}) \]
-     donde \( E_i \) es el tiempo más temprano de inicio del nodo predecesor \( i \) y \( D_{ij} \) es la duración de la actividad de \( i \) a \( j \).
-
-##### Paso Hacia Atrás
-2. **Calcular los Tiempos Más Tardíos**:
-   - **Tiempo más tardío de finalización de una actividad** \( L_j \): Es el tiempo más tardío en que una actividad puede finalizar sin demorar el proyecto.
-   - **Tiempo más tardío de inicio de una actividad** \( L_i \): Es el tiempo más tardío en que una actividad puede comenzar sin demorar el proyecto.
-   - Para cada nodo \( i \):
-     \[ L_i = \min (L_j - D_{ij}) \]
-     donde \( L_j \) es el tiempo más tardío de finalización del nodo sucesor \( j \).
-
 ##### Condiciones para que una Actividad sea Crítica
 Una actividad \( (i, j) \) es crítica si cumple con las siguientes tres condiciones:
 
@@ -136,16 +121,8 @@ Para desarrollar un cronograma adecuado, se deben considerar los tiempos de inic
 ### Método PERT
 
 #### Diferencias entre PERT y CPM
-- **CPM (Critical Path Method)**: Supone duraciones determinísticas de las actividades.
-- **PERT (Program Evaluation and Review Technique)**: Supone duraciones probabilísticas y utiliza tres estimaciones para calcular la duración esperada de las actividades: tiempo optimista (a), tiempo más probable (m) y tiempo pesimista (b).
-
-#### Cálculo en PERT
-1. **Tiempo Promedio de Duración**:
-   \[ D' = \frac{a + 4m + b}{6} \]
-2. **Varianza**:
-   \[ v = \left(\frac{b - a}{6}\right)^2 \]
-
-Los cálculos de la ruta crítica se pueden aplicar de manera similar al CPM, pero usando \( D' \) en lugar de una estimación única \( D \). Las variables de tiempo temprano y tiempo programado especificado se manejan como variables aleatorias.
+- **CPM (Critical Path Method)**: Supone duraciones **determinísticas de las actividades**.
+- **PERT (Program Evaluation and Review Technique)**: Supone duraciones pr**obabilísticas y utiliza tres estimaciones para calcular la duración esperada de las actividades**: tiempo optimista (**a**), tiempo más probable (**m**) y tiempo pesimista (**b**).
 
 ### Utilidad de los Diagramas PERT para la Toma de Decisiones
 Los diagramas PERT son herramientas útiles para la gestión de proyectos, ya que proporcionan una representación gráfica clara de las tareas necesarias para completar un proyecto. Ayudan a:

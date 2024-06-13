@@ -1,6 +1,5 @@
 # Preguntas de Parcial: Conceptos Cortos
 
-
 ## ¿Para qué se utiliza la programación lineal entera?
 - La programación lineal entera **se utiliza para resolver problemas de optimización** en los cuales **las variables de decisión deben tomar valores enteros**.
 - Es común en situaciones donde las decisiones son discretas, como la asignación de recursos, la planificación de la producción, la ubicación de instalaciones y problemas de logística.
@@ -56,11 +55,12 @@ En un modelo de inventario se manejan principalmente tres tipos de costos:
 - **Productos Terminados:** Productos que están listos para ser vendidos.
 
 ## Clasificación ABC
-La clasificación ABC es una técnica de gestión de inventarios que categoriza los artículos en tres clases basadas en su importancia:
-- **A:** Artículos de alto valor monetario pero de bajo volumen. Nivel de exactitud de control: ±0,2%.
-- **B:** Artículos de valor y volumen intermedio. Nivel de exactitud de control: ±1,0%.
-- **C:** Artículos de bajo valor monetario pero alto volumen. Nivel de exactitud de control: ±5,0%.
+La clasificación **ABC** es una *técnica de gestión de inventarios* que **categoriza los artículos en tres clases basadas en su importancia**:
+- **A:** Artículos de *alto valor monetario pero de bajo volumen*. Nivel de exactitud de control: ±0,2%.
+- **B:** Artículos de *valor y volumen intermedio*. Nivel de exactitud de control: ±1,0%.
+- **C:** Artículos de *bajo valor monetario pero alto volumen*. Nivel de exactitud de control: ±5,0%.
 
-("Volumen" se refiere a la cantidad física de artículos o unidades en stock. "Nivel de exactitud en el control" se refiere a la precisión con la que se gestiona y cuenta el inventario.)
+- **"Volumen"** se refiere a la *cantidad física de artículos o unidades en stock*. 
+- **"Nivel de exactitud en el control"** se refiere a la *precisión con la que se gestiona y cuenta el inventario*.
 
-Esta clasificación ayuda a enfocar los recursos de gestión en los artículos más importantes (A) y aplicar controles más relajados a los menos importantes (C).
+> Esta clasificación ayuda a enfocar los recursos de gestión en los artículos más importantes (A) y aplicar controles más relajados a los menos importantes (C).

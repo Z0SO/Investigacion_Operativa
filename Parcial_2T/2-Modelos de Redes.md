@@ -58,38 +58,9 @@ El flujo máximo en la red se determina al detectar las rutas de irrupción y ca
 #### Descripción del Problema
 El problema del flujo capacitado con costo mínimo busca determinar los flujos en los distintos arcos de una red de transporte que minimizan el costo total y satisfacen las restricciones de flujo, así como las cantidades de oferta y demanda en los nodos.
 
-#### Hipótesis del Problema
-1. A cada arco se le asocia un costo de flujo unitario.
-2. Los arcos pueden tener límites inferiores positivos de capacidad.
-3. Todo nodo en la red puede funcionar como fuente o como sumidero.
-
-#### Representación en Red
-- Una red capacitada se denota como $( G = (N, A) ), donde ( N )$ es el conjunto de nodos y \( A \) es el conjunto de arcos.
-- Se define:
-  - \( x_{ij} \): Cantidad de flujo del nodo \( i \) al nodo \( j \).
-  - \( u_{ij} \) (\( l_{ij} \)): Capacidad máxima (mínima) del arco \( (i, j) \).
-  - \( c_{ij} \): Costo de flujo unitario del nodo \( i \) al nodo \( j \).
-  - \( f_i \): Flujo neto en el nodo \( i \).
-
-#### Formulación con Programación Lineal
-La formulación del problema como un programa lineal es la base para el desarrollo del algoritmo simplex capacitado. La ecuación para el nodo \( j \) mide el flujo neto \( f_j \) en el nodo \( j \) de la siguiente manera:
-
-$[ \sum_{i} x_{ij} - \sum_{k} x_{jk} = f_j ]$
-
-El nodo \( j \) funciona como fuente si \( f_j > 0 \) y como sumidero si \( f_j < 0 \).
 
 #### Algoritmo Simplex de Red Capacitada
 El objetivo del algoritmo es aprovechar la estructura especial de red del modelo de flujo con costo mínimo. La red debe satisfacer la condición de balanceo de flujo:
-
-\[ \sum_{i} f_i = 0 \]
-
-Esto indica que la oferta total en la red es igual a la demanda total. Este requisito se puede satisfacer agregando una fuente o un destino ficticios para balancear, conectados con todos los demás nodos de la red con arcos de costo unitario cero y capacidad infinita.
-
-**Pasos del Algoritmo Simplex Capacitado:**
-1. **Balanceo de la Red:** Asegurar que toda la oferta total en la red sea igual a la demanda total agregando nodos ficticios si es necesario.
-2. **Solución Básica Inicial:** Encontrar una solución básica inicial que corresponde a un árbol de expansión mínima de la red.
-3. **Iteraciones:** Realizar iteraciones para optimizar el flujo, utilizando el método simplex capacitado para mover el flujo en la red mientras se cumple con las restricciones de capacidad y minimizando el costo.
-4. **Actualización de Flujos:** Actualizar los flujos en los arcos y las capacidades residuales después de cada iteración hasta que no se pueda mejorar más el costo total.
 
 #### Método PERT y CPM
 
@@ -146,10 +117,12 @@ El cálculo de la ruta crítica en un proyecto implica determinar las actividade
 
 ##### Condiciones para que una Actividad sea Crítica
 Una actividad \( (i, j) \) es crítica si cumple con las siguientes tres condiciones:
-1. \( E_i = L_i \)
-2. \( E_j = L_j \)
-3. \( L_i - E_i = 0 \)
 
+$$
+( E_i = L_i )
+( E_j = L_j )
+( L_i - E_i = 0 )
+$$
 Esto indica que los tiempos más tempranos y más tardíos de inicio y finalización de la actividad son iguales, y que la duración \( D_{ij} \) se ajusta exactamente al intervalo especificado de tiempo.
 
 ### Construcción del Cronograma

@@ -4,6 +4,7 @@
 ### Programación Lineal Entera
 
 #### ¿Para qué se utiliza la programación lineal entera?
+
 La programación *lineal entera se utiliza para resolver problemas de optimización* en los cuales **las variables de decisión deben tomar valores enteros**. Esto es común en situaciones donde las decisiones son discretas, como la asignación de recursos, la planificación de la producción, la ubicación de instalaciones, y problemas de logística. 
 
 **Se** **requiere** cuando las soluciones deben ser *números enteros* debido a la naturaleza del problema, como en el caso de unidades de productos, empleados, vehículos, etc.

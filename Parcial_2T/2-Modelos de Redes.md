@@ -64,7 +64,7 @@ El objetivo del algoritmo es aprovechar la estructura especial de red del modelo
 #### Método PERT y CPM
 
 ##### Descripción y Objetivo
-Los métodos CPM (Critical Path Method) y PERT (Program Evaluation and Review Technique) se basan en redes para auxiliar en la planeación, programación y control de proyectos. Ambos métodos buscan proporcionar un análisis sistemático de las actividades de un proyecto para mejorar su programación.
+Los métodos CPM (Critical Path Method) y PERT (Program Evaluation and Review Technique) se basan en redes para auxiliar en la **planeación, programación y control de proyectos**. Ambos métodos buscan *proporcionar un análisis sistemático de las actividades de un proyecto* para mejorar su programación.
 
 ##### Diferencias y Similitudes
 - **CPM:** Supone duraciones determinísticas de actividad.

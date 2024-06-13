@@ -1,20 +1,22 @@
 
 ### Teoría de Stock y Modelos de Inventario
 
-La teoría de stock se ocupa de estudiar y determinar las políticas óptimas de reabastecimiento en inventarios para minimizar los costos asociados. Estos costos incluyen el costo de almacenamiento, costo de desabastecimiento, y otros costos relacionados con la gestión de inventarios. El objetivo es encontrar un equilibrio entre mantener un inventario suficiente para satisfacer la demanda y minimizar los costos asociados.
+- La teoría de stock se ocupa de estudiar y determinar las **políticas óptimas de reabastecimiento** en inventarios para *minimizar los costos asociados*.
+- Estos costos incluyen el costo de **almacenamiento**, costo de **desabastecimiento**, y otros costos relacionados con la gestión de inventarios.
+- El **objetivo es encontrar un equilibrio** entre mantener un inventario suficiente para *satisfacer la demanda* y *minimizar los costos asociados*.
 
 # Modelos de Inventario
 
-## Stocks con Demanda Determinística
+## Stocks con Demanda DETERMINISTICA
 
 ### Modelo I: Modelo de Wilson
 - **Demanda:** Determinística y constante.
 - **![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXfSxEBaJ1rpSVwEbDJcBTSob-3oPutZSZyCz25kIYimaAhIkUnepAY8SzVdq7IyBz30e3ZBSeGBFTgh0yKYRSeoGVITtLLlQDhhbszy6-wGdUXfUz7KGLrCvObMVYqbrBbZeep_pHlKq9sC_CXrd9mngu4?key=ESjnCozrK6HeQO4PkjCJug)**
 - **Características:** 
   - Demanda continua asimilada a una recta.
+  -  No permite agotamiento de stock.
   - ![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXftIMGclDBr2QkWkQQvR93_TDQ_FCYEYqdiDNpBQqMq5BXWaxNIxlhWPhvFUVWxS9rqzZNq4UvaHfyyGkXM1V1uBUCVtgKKqESPt1wTCmgFvtcJ561MIes4UOGP1CGyP1-DVJeIgAB8LzRj2AbVpZEiUg?key=ESjnCozrK6HeQO4PkjCJug)
   - ![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXej6E6IOpelxfJ6y-gp5G1CCKaYS2LNad7rUp_l6yH6IK9qKZO-YJUSAt4HFt7piusfyDY_QXQtYTmTFV5aGS0gHjBhF5VqTjysjB4AGeLNkSE9zsbWRdx1LbxcfdXmOfNiB0ULSfWA17OG2EIcRjYZy1q4?key=ESjnCozrK6HeQO4PkjCJug)
-  - No permite agotamiento de stock.
 
 #### Costos de Gestión de Stocks
 - **Costo de Preparación (K):** Independiente de la cantidad ordenada.

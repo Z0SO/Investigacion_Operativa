@@ -1,11 +1,12 @@
 
-### Programación Lineal Entera
+# Programación Lineal Entera
 
-#### ¿En qué consiste un problema de Programación Lineal Entera?
-La programación lineal entera se caracteriza por la restricción adicional de que los valores de todas o algunas de las variables de decisión sean enteros (o discretos). Esta condición adicional se conoce como **integridad**.
+- La programación lineal entera se caracteriza por la restricción adicional de que los valores de todas o algunas de las variables de decisión sean enteros (o discretos). 
+- Esta condición adicional se conoce como **integridad**.
 
 #### ¿Cuál es la justificación de su existencia?
-La programación entera se utiliza para resolver problemas en los cuales las variables de decisión deben ser enteras. Esto es común en situaciones donde las decisiones son discretas, como la asignación de recursos o la planificación de producción.
+- La programación entera se utiliza para resolver problemas en los cuales las variables de **decisión deben ser enteras**.
+- Esto es común en situaciones donde las **decisiones son discretas**, como la asignación de recursos o la planificación de producción.
 
 #### TIPOS de programacion en PLE
 - **Programas Enteros Puros:** Exige que todas las variables de decisión tengan valores enteros.

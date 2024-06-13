@@ -71,7 +71,7 @@ La solución del problema se obtiene buscando los valores de $x$, $\lambda$ y $s
 4. **Dualidad:** 
    $$
    \lambda_i \geq 0
-   $$ ,
+   $$ 
    $$
    h_i(x) \leq 0
    $$

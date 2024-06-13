@@ -82,7 +82,7 @@ $$
 #### Método de Kuhn-Tucker
 
 El método de Kuhn-Tucker, también conocido como las condiciones de Karush-Kuhn-Tucker (KKT), **se utiliza para problemas con restricciones de desigualdad**. 
-- Este método introduce ***variables de holgura*** 
+- Este método agrega ***variables de holgura*** 
 - ***Reformula las restricciones de desigualdad como restricciones de igualdad*** con variables de holgura *no negativas*.
 
 La solución del problema se obtiene buscando los valores de $x$, $\lambda$ y $s$ que satisfacen las siguientes condiciones:

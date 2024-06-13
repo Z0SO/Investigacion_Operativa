@@ -17,7 +17,7 @@ La principal diferencia con la programación lineal estándar es la restricción
 ## ¿Qué métodos se utilizan en la programación lineal entera?
 Los métodos principales para resolver problemas de programación lineal entera son:
 - **Método de Ramificación y Acotamiento (Branch and Bound):** Se basa en dividir el problema en subproblemas más pequeños y acotar las soluciones posibles.
-- **Método de Planos de Corte (Cutting Planes):** Agrega restricciones adicionales al problema para eliminar soluciones no enteras y acercarse a la solución entera óptima.
+- **Método de Planos de Corte (Cutting Planes):** *Agrega restricciones* adicionales al problema *para eliminar soluciones no enteras* y acercarse a la solución entera óptima.
 
 ## Modelo de Inventario
 Los modelos de inventario se utilizan para determinar las políticas óptimas de gestión de inventarios, respondiendo a preguntas como cuánto y cuándo ordenar. Los modelos pueden ser determinísticos o probabilísticos, y pueden incluir costos de pedido, almacenamiento y faltantes.

@@ -125,3 +125,51 @@ Los modelos de períodos se caracterizan por:
 1. **Revisión Periódica del Inventario**: El nivel de inventario se revisa en intervalos regulares de tiempo, como al final de cada periodo de planificación.
 2. **Demanda Acumulada**: La demanda se acumula durante el periodo y se satisface con un solo pedido al final del periodo.
 3. **Costos de Preparación o Pedido**: Puede haber costos asociados con la preparación o el pedido de inventario, dependiendo de las políticas de reabastecimiento y las condiciones del negocio.
+
+
+- **A**: Artículos de alto valor monetario pero de bajo volumen. Estos son los productos más valiosos y generalmente representan una pequeña parte del inventario total en términos de cantidad, pero una gran parte en términos de valor. 
+
+- Ejemplo: Equipos electrónicos costosos, piezas críticas de maquinaria.
+
+  - Nivel de exactitud en el control: +-0,2%.
+
+  
+
+- **B**: Artículos de valor y volumen intermedio. Estos productos tienen un valor y volumen moderado, y son menos críticos que los artículos A pero aún así importantes.
+
+  - Ejemplo: Productos de consumo regular como materiales de oficina o componentes estándar.
+
+  - **Nivel de exactitud en el control**: +-1,0%.
+
+  
+
+- **C**: Artículos de bajo valor monetario pero alto volumen. Estos artículos son los menos valiosos y suelen representar la mayor parte del inventario en términos de cantidad, pero una pequeña parte en términos de valor.
+
+  - Ejemplo: Tornillos, tuercas, y otros artículos de bajo costo.
+
+  - **Nivel de exactitud en el control**: +-5,0%.
+
+  
+
+**Importancia de la Clasificación ABC**
+
+- Esta clasificación permite a las empresas enfocar sus recursos de gestión en los artículos más importantes (A), asegurando un control más preciso y minucioso.
+- Para los artículos de clase B, se aplican controles de gestión moderados, mientras que los artículos de clase C reciben controles más relajados, reduciendo así los costos de gestión y almacenamiento.
+
+
+**Ventajas de la Clasificación ABC**
+
+1. **Optimización de Recursos**: Permite asignar recursos y esfuerzos de gestión de manera más eficiente, centrándose en los artículos que más impactan en el valor del inventario.
+
+2. **Mejora en la Exactitud de Inventarios**: Los artículos de mayor valor (A) se gestionan con mayor precisión, reduciendo errores y pérdidas costosas.
+
+3. **Reducción de Costos**: Al aplicar controles menos estrictos a los artículos de menor valor (C), se reducen los costos operativos y administrativos.
+
+**Aplicación de la Clasificación ABC**
+Según la American Production and Inventory Control Society (APICS), la exactitud en el control de inventarios varía para cada categoría, reflejando la importancia de cada clase:
+
+- **Artículo A**: +-0,2%
+- **Artículo B**: +-1,0%
+- **Artículo C**: +-5,0%
+
+Estas variaciones en la exactitud permiten a las empresas mantener un equilibrio entre la eficiencia operativa y el control preciso del inventario.

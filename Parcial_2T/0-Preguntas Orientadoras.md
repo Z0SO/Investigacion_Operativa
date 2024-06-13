@@ -1,17 +1,16 @@
 # Preguntas de Parcial: Conceptos Cortos
 
-## ¿Qué es un inventario?
-
-Un inventario es la cantidad de artículos que son almacenados y se mantienen inactivos en un instante de tiempo dado. Incluye la cantidad de productos, sus características y su estado.
 
 ## ¿Para qué se utiliza la programación lineal entera?
-La programación lineal entera se utiliza para resolver problemas de optimización en los cuales las variables de decisión deben tomar valores enteros. Es común en situaciones donde las decisiones son discretas, como la asignación de recursos, la planificación de la producción, la ubicación de instalaciones y problemas de logística. Específicamente, se requiere cuando las soluciones deben ser números enteros debido a la naturaleza del problema, como en el caso de unidades de productos, empleados, vehículos, etc.
+- La programación lineal entera **se utiliza para resolver problemas de optimización** en los cuales **las variables de decisión deben tomar valores enteros**.
+- Es común en situaciones donde las decisiones son discretas, como la asignación de recursos, la planificación de la producción, la ubicación de instalaciones y problemas de logística.
+- Específicamente, *se requiere cuando las soluciones deben ser números enteros debido a la naturaleza del problema*, como en el caso de unidades de productos, empleados, vehículos, etc.
 
 ## Diferencia entre las programaciones
 Existen diferentes tipos de programación lineal entera:
-- **Programación Entera Pura:** Todas las variables de decisión deben ser enteras.
-- **Programación Entera Mixta:** Algunas variables de decisión deben ser enteras mientras que otras pueden ser continuas.
-- **Programación Entera Binaria:** Todas las variables de decisión deben ser enteras y tomar valores 0 o 1.
+- **Programación Entera Pura:** *Todas* las variables de decisión deben ser *enteras*.
+- **Programación Entera Mixta:** *Algunas* variables de decisión deben ser *enteras* mientras que *otras pueden ser continuas*.
+- **Programación Entera Binaria:** *Todas* las variables de decisión deben ser *enteras* y tomar valores *0 o 1*.
 
 La principal diferencia con la programación lineal estándar es la restricción adicional de que las variables deben ser enteras, lo cual complica la solución del problema.
 
@@ -22,6 +21,11 @@ Los métodos principales para resolver problemas de programación lineal entera 
 
 ## Modelo de Inventario
 Los modelos de inventario se utilizan para determinar las políticas óptimas de gestión de inventarios, respondiendo a preguntas como cuánto y cuándo ordenar. Los modelos pueden ser determinísticos o probabilísticos, y pueden incluir costos de pedido, almacenamiento y faltantes.
+
+## ¿Qué es un inventario?
+
+- Un inventario es la cantidad de artículos que son almacenados y se mantienen inactivos en un instante de tiempo dado.
+- Incluye la cantidad de productos, sus características y su estado.
 
 ## ¿Cuántos costos se manejan en un modelo de inventario?
 En un modelo de inventario se manejan principalmente tres tipos de costos:

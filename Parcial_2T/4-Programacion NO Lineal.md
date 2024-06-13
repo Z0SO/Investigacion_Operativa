@@ -54,20 +54,20 @@ $$
 - **Iterativo:** El proceso se repite hasta que el *gradiente indique que no hay más aumento o disminución*.
 
 ##### ¿Para qué se usa el método jacobiano?
-Se utiliza principalmente para resolver sistemas de ecuaciones no lineales iterativamente.
+Se utiliza principalmente *para resolver sistemas de ecuaciones no lineales iterativamente*.
 
 ##### ¿En qué se basa?
-Se basa en el gradiente de la función objetivo y las restricciones, utilizando un multiplicador para ajustar la dirección y magnitud del movimiento hacia el punto óptimo.
+*Se basa en el gradiente de la función objetivo* y las restricciones, utilizando un multiplicador para ajustar la dirección y magnitud del movimiento hacia el punto óptimo.
 
 #### Método de Lagrange
 
-El método de Lagrange introduce un conjunto de multiplicadores de Lagrange, uno para cada restricción de igualdad, y reformula el problema como una función lagrangiana:
+El método de Lagrange introduce un conjunto de **multiplicadores de Lagrange**, *uno para cada restricción de igualdad*, y *reformula el problema como una función lagrangiana*:
 
 $$
 L(x, \lambda) = f(x) + \sum \lambda_j g_j(x)
 $$
 
-La solución del problema se obtiene buscando los valores de $x$ y $\lambda$ que satisfacen las siguientes condiciones:
+La solución del problema *se obtiene buscando los valores de $x$ y $\lambda$ que satisfacen las siguientes condiciones*:
 
 $$
 \nabla L(x, \lambda) = 0
@@ -81,7 +81,9 @@ $$
 
 #### Método de Kuhn-Tucker
 
-El método de Kuhn-Tucker, también conocido como las condiciones de Karush-Kuhn-Tucker (KKT), se utiliza para problemas con restricciones de desigualdad. Este método introduce variables de holgura y reformula las restricciones de desigualdad como restricciones de igualdad con variables de holgura no negativas.
+El método de Kuhn-Tucker, también conocido como las condiciones de Karush-Kuhn-Tucker (KKT), **se utiliza para problemas con restricciones de desigualdad**. 
+- Este método introduce ***variables de holgura*** 
+- ***Reformula las restricciones de desigualdad como restricciones de igualdad*** con variables de holgura *no negativas*.
 
 La solución del problema se obtiene buscando los valores de $x$, $\lambda$ y $s$ que satisfacen las siguientes condiciones:
 

@@ -62,19 +62,6 @@ Donde:
 - \(C_p\) es el costo de realizar un pedido.
 - \(C_h\) es el costo de mantener una unidad en inventario por un año.
 
-**Ejemplo:**
-
-Supongamos que:
-- La demanda anual (\(D\)) es de 10,000 unidades.
-- El costo por pedido (\(C_p\)) es de $50.
-- El costo de mantenimiento por unidad por año (\(C_h\)) es de $2.
-
-Aplicamos la fórmula EOQ:
-
-\[ Q^* = \sqrt{\frac{2 \times 10000 \times 50}{2}} = \sqrt{500000} \approx 707 \text{ unidades} \]
-
-El tamaño óptimo del lote de pedido es de 707 unidades.
-
 ### Utilización de Modelos de Inventario
 
 Estos modelos ayudan a los tomadores de decisiones a:

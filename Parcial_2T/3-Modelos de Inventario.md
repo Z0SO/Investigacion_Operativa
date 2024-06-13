@@ -9,8 +9,10 @@ La teoría de stock se ocupa de estudiar y determinar las políticas óptimas de
 
 ### Modelo I: Modelo de Wilson
 - **Demanda:** Determinística y constante.
+- **![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfSxEBaJ1rpSVwEbDJcBTSob-3oPutZSZyCz25kIYimaAhIkUnepAY8SzVdq7IyBz30e3ZBSeGBFTgh0yKYRSeoGVITtLLlQDhhbszy6-wGdUXfUz7KGLrCvObMVYqbrBbZeep_pHlKq9sC_CXrd9mngu4?key=ESjnCozrK6HeQO4PkjCJug)**
 - **Características:** 
   - Demanda continua asimilada a una recta.
+  - **![](https://lh7-us.googleusercontent.com/docsz/AD_4nXftIMGclDBr2QkWkQQvR93_TDQ_FCYEYqdiDNpBQqMq5BXWaxNIxlhWPhvFUVWxS9rqzZNq4UvaHfyyGkXM1V1uBUCVtgKKqESPt1wTCmgFvtcJ561MIes4UOGP1CGyP1-DVJeIgAB8LzRj2AbVpZEiUg?key=ESjnCozrK6HeQO4PkjCJug)****![](https://lh7-us.googleusercontent.com/docsz/AD_4nXej6E6IOpelxfJ6y-gp5G1CCKaYS2LNad7rUp_l6yH6IK9qKZO-YJUSAt4HFt7piusfyDY_QXQtYTmTFV5aGS0gHjBhF5VqTjysjB4AGeLNkSE9zsbWRdx1LbxcfdXmOfNiB0ULSfWA17OG2EIcRjYZy1q4?key=ESjnCozrK6HeQO4PkjCJug)**
   - No permite agotamiento de stock.
 
 #### Costos de Gestión de Stocks
@@ -18,11 +20,12 @@ La teoría de stock se ocupa de estudiar y determinar las políticas óptimas de
 - **Costo de Producto (b):** Costo unitario de adquisición o producción.
 - **Costo de Almacenamiento (c1):** Incluye costos reales (seguros, impuestos, alquiler, etc.) y el costo de oportunidad.
 - **Costo de Escasez (c2):** Aparece en modelos con ruptura de stock, implica ingresos retrasados y pérdida de prestigio.
-
+- **![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfaFRnsxv1sUTh05QHX2e9yOrsF1IQRULtmgd1GaYKBmIs17Pq2r7g75B-t9741UrBl2M0WYKFQosa8fkKrL2Kw2pFJOMOGaafVFAfvZdmZdQgTRAoY4aRruhegqfH86TZ4q7deZVWkABxtBH0sOz9QNhF9?key=ESjnCozrK6HeQO4PkjCJug)**
 ### Modelo II: Demanda Constante con Inventario de Contingencia
 - **Características:**
   - Incluye un inventario de contingencia para cubrir errores de estimación.
   - Utiliza un stock mínimo de protección.
+  - ![]({2x3}https://lh7-us.googleusercontent.com/docsz/AD_4nXckvy_NNa3gZlYlxtSXeOLe7CVjmGLG9DApB7WzPqZVGaDWhspjL2sadW3r_3A-WzTyLaB6t5bmY4x-R-S0NtG6I6b1GM9n9sEUOY4hwfF4Wu-VinDhVmXbafNtKhzugtj_NZKiJrtpBnYfkq9Rbgj2UUjZ?key=ESjnCozrK6HeQO4PkjCJug)
 
 ### Modelo III: Demanda Constante con Agotamiento
 - **Características:**

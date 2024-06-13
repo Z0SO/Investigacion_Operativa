@@ -72,19 +72,14 @@ La clasificación ABC es una técnica de gestión de inventarios que categoriza 
 - **A**: Artículos de alto valor monetario pero de bajo volumen. Estos son los productos más valiosos y generalmente representan una pequeña parte del inventario total en términos de cantidad, pero una gran parte en términos de valor. 
 
 - Ejemplo: Equipos electrónicos costosos, piezas críticas de maquinaria.
-
-  - Nivel de exactitud en el control: +-0,2%.
+  - **Nivel de exactitud en el control**: +-0,2%.
 
 - **B**: Artículos de valor y volumen intermedio. Estos productos tienen un valor y volumen moderado, y son menos críticos que los artículos A pero aún así importantes.
-
   - Ejemplo: Productos de consumo regular como materiales de oficina o componentes estándar.
-
   - **Nivel de exactitud en el control**: +-1,0%.
 
 - **C**: Artículos de bajo valor monetario pero alto volumen. Estos artículos son los menos valiosos y suelen representar la mayor parte del inventario en términos de cantidad, pero una pequeña parte en términos de valor.
-
 - Ejemplo: Tornillos, tuercas, y otros artículos de bajo costo.
-
   - **Nivel de exactitud en el control**: +-5,0%.
 
 **Importancia de la Clasificación ABC**

@@ -27,13 +27,13 @@
 ### Modelo II: Demanda Constante con Inventario de Contingencia
 - **Características:**
   - Incluye un inventario de contingencia para cubrir errores de estimación.
-  - Utiliza un stock mínimo de protección.
-  - ![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXckvy_NNa3gZlYlxtSXeOLe7CVjmGLG9DApB7WzPqZVGaDWhspjL2sadW3r_3A-WzTyLaB6t5bmY4x-R-S0NtG6I6b1GM9n9sEUOY4hwfF4Wu-VinDhVmXbafNtKhzugtj_NZKiJrtpBnYfkq9Rbgj2UUjZ?key=ESjnCozrK6HeQO4PkjCJug)
+  - Utiliza un stock mínimo de protección
 
 ### Modelo III: Demanda Constante con Agotamiento
 - **Características:**
   - Permite faltantes de inventario.
   - No permitido en el Modelo I.
+  - ![300](https://lh7-us.googleusercontent.com/docsz/AD_4nXckvy_NNa3gZlYlxtSXeOLe7CVjmGLG9DApB7WzPqZVGaDWhspjL2sadW3r_3A-WzTyLaB6t5bmY4x-R-S0NtG6I6b1GM9n9sEUOY4hwfF4Wu-VinDhVmXbafNtKhzugtj_NZKiJrtpBnYfkq9Rbgj2UUjZ?key=ESjnCozrK6HeQO4PkjCJug)
 
 ### Modelo IV: Stock con Producción y Demanda Conjunta (Modelo Triangular)
 - **Características:**

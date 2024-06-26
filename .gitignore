@@ -1,3 +1,9 @@
 
 # Ignorar carpeta obsidian
 .obsidian/
+
+
+
+
+# Ignore Smart Connections folder
+.smart-connections

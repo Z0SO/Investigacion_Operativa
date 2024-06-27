@@ -74,3 +74,12 @@ $$
   $$
 
 Dado que todos los menores principales son positivos, el punto crítico es un **mínimo local**.
+
+
+## Lagrange - Verificacion del Hessiano
+
+**Verificar la naturaleza de los puntos críticos usando la matriz Hessiana:**
+
+- Si todos los valores propios de $H_{\mathcal{L}}$ son positivos, el punto crítico es un **mínimo local**.
+- Si todos los valores propios de $H_{\mathcal{L}}$​ son negativos, el punto crítico es un **máximo local**.
+- Si hay una mezcla de valores propios positivos y negativos, el punto crítico es un **punto de silla**.

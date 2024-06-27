@@ -22,14 +22,14 @@ Para analizar la matriz Hessiana $(3 \times 3)$, puedes usar los siguientes paso
 1. **Determinante y menores principales:**
    Analizar los menores principales (determinantes de las submatrices $(k \times k)$ comenzando en la esquina superior izquierda) te proporciona información sobre la naturaleza del punto crítico. Los menores principales son:
    - El menor de orden 1: $(\frac{\partial^2 f}{\partial x^2})$
-   - El menor de orden 2:
-     $$
-     \begin{vmatrix}
-     \frac{\partial^2 f}{\partial x^2} & \frac{\partial^2 f}{\partial x \partial y} \\
-     \frac{\partial^2 f}{\partial y \partial x} & \frac{\partial^2 f}{\partial y^2}
-     \end{vmatrix}
-     $$
    - El menor de orden 3: $\det(H)$
+- El menor de orden 2:
+  $$
+  \begin{vmatrix}
+  \frac{\partial^2 f}{\partial x^2} & \frac{\partial^2 f}{\partial x \partial y} \\
+  \frac{\partial^2 f}{\partial y \partial x} & \frac{\partial^2 f}{\partial y^2}
+  \end{vmatrix}
+  $$
 
 2. **Criterio de Sylvester:**
    El criterio de Sylvester para determinar la naturaleza de un punto crítico en una función de tres variables es el siguiente:

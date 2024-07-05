@@ -6,13 +6,14 @@
 		{"id":"a806a9088a04fadd","type":"text","text":"ALGUNA VARIABLE NO BASICA $\\leq 0$","x":360,"y":22,"width":349,"height":56,"color":"5"},
 		{"id":"0bea8b1f627660a3","type":"text","text":"ELEMENTOS DE LA COLUMNA PIVOTE $\\leq 0$","x":335,"y":164,"width":405,"height":56,"color":"5"},
 		{"id":"5563fe4a29f777d2","type":"text","text":"NO ES OPTIMA","x":560,"y":-140,"width":250,"height":60,"color":"1"},
-		{"id":"e7c8336a940fdd4e","x":-274,"y":299,"width":154,"height":61,"color":"1","type":"text","text":"FACTIBLE"},
-		{"id":"2a2b941802a9a4e8","x":-14,"y":303,"width":250,"height":60,"color":"5","type":"text","text":"SI TODOS SON $\\geq 0$"},
-		{"id":"47cdb3895b7f2a3a","x":191,"y":420,"width":250,"height":60,"color":"1","type":"text","text":"INFACTIBLE"},
-		{"id":"81cdaa506e774240","x":-274,"y":560,"width":200,"height":60,"color":"1","type":"text","text":"DEGENERACION"},
-		{"id":"45a2ff5403bfdb34","x":2,"y":564,"width":439,"height":56,"color":"5","type":"text","text":"ALGUN ELEMENTO COLUMNA SOLUCION $= 0$"},
-		{"id":"85ab3c4146c78849","x":-660,"y":299,"width":250,"height":60,"color":"2","type":"text","text":"COLUMNA SOLUCION"},
-		{"id":"05ef948e419da8c9","type":"text","text":"OPTIMO","x":-324,"y":-242,"width":250,"height":60,"color":"1"}
+		{"id":"05ef948e419da8c9","type":"text","text":"OPTIMO","x":-324,"y":-242,"width":250,"height":60,"color":"1"},
+		{"id":"2a2b941802a9a4e8","x":90,"y":420,"width":250,"height":60,"color":"5","type":"text","text":"SI TODOS SON $\\geq 0$"},
+		{"id":"47cdb3895b7f2a3a","x":310,"y":598,"width":250,"height":60,"color":"1","type":"text","text":"INFACTIBLE"},
+		{"id":"45a2ff5403bfdb34","x":140,"y":770,"width":439,"height":56,"color":"5","type":"text","text":"ALGUN ELEMENTO COLUMNA SOLUCION $= 0$"},
+		{"id":"85ab3c4146c78849","x":-199,"y":598,"width":250,"height":60,"color":"2","type":"text","text":"COLUMNA SOLUCION"},
+		{"id":"e7c8336a940fdd4e","x":-324,"y":420,"width":154,"height":61,"color":"1","type":"text","text":"FACTIBLE"},
+		{"id":"81cdaa506e774240","x":-347,"y":796,"width":200,"height":60,"color":"1","type":"text","text":"DEGENERACION"},
+		{"id":"ebe8dadf7743b3e0","x":-820,"y":108,"width":400,"height":225,"type":"file","file":"Screenshot_20240705_022545.png"}
 	],
 	"edges":[
 		{"id":"83200e25ec51ad13","fromNode":"05ef948e419da8c9","fromSide":"right","toNode":"b46c42312cdc3b44","toSide":"left","color":"1"},
@@ -23,8 +24,8 @@
 		{"id":"dca3794ad417df94","fromNode":"17a0cc8c073b44d1","fromSide":"right","toNode":"0bea8b1f627660a3","toSide":"left","color":"3"},
 		{"id":"ce1647f593e5aa8f","fromNode":"e7c8336a940fdd4e","fromSide":"right","toNode":"2a2b941802a9a4e8","toSide":"left","color":"1"},
 		{"id":"631dbb11ed15c3c9","fromNode":"2a2b941802a9a4e8","fromSide":"bottom","toNode":"47cdb3895b7f2a3a","toSide":"left","color":"5","label":"SINO"},
-		{"id":"56b0607eec90de22","fromNode":"85ab3c4146c78849","fromSide":"right","toNode":"e7c8336a940fdd4e","toSide":"left","color":"2"},
-		{"id":"fb78fe4421f7c53a","fromNode":"85ab3c4146c78849","fromSide":"bottom","toNode":"81cdaa506e774240","toSide":"left","color":"2"},
+		{"id":"56b0607eec90de22","fromNode":"85ab3c4146c78849","fromSide":"top","toNode":"e7c8336a940fdd4e","toSide":"bottom","color":"2"},
+		{"id":"fb78fe4421f7c53a","fromNode":"85ab3c4146c78849","fromSide":"bottom","toNode":"81cdaa506e774240","toSide":"top","color":"2"},
 		{"id":"e1682a1406f552d5","fromNode":"81cdaa506e774240","fromSide":"right","toNode":"45a2ff5403bfdb34","toSide":"left","color":"1"}
 	]
 }

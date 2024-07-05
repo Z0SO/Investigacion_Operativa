@@ -59,4 +59,10 @@ $≤ →+→$  ***Por debajo* del minimo**
 2. $$ 900x1 + 1200x2 + 1300x3 - 0s4 - s5 - 0s6 = 250 \quad [galones/mes] $$
 3. $$ 800x1 + 1300x2 + 500x3 - 0s4 - 0s5 - s6 = 350 \quad [galones/mes] $$
 
+
+
+
+
+
+
 ---

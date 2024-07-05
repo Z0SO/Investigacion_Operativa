@@ -1,9 +1,17 @@
 {
 	"nodes":[
 		{"id":"05ef948e419da8c9","x":-296,"y":-247,"width":250,"height":60,"type":"text","text":"OPTIMO"},
-		{"id":"b46c42312cdc3b44","x":242,"y":-268,"width":250,"height":60,"type":"text","text":""}
+		{"id":"b46c42312cdc3b44","x":242,"y":-268,"width":398,"height":51,"type":"text","text":"SI TODOS LOS COEFICIENTES SON >= 0"},
+		{"id":"5563fe4a29f777d2","x":441,"y":-100,"width":250,"height":60,"type":"text","text":"NO ES OPTIMA"},
+		{"id":"17a0cc8c073b44d1","x":-74,"y":160,"width":250,"height":60,"type":"text","text":"NO ACOTADO"},
+		{"id":"779b9eb5dd946913","x":-74,"y":20,"width":250,"height":60,"type":"text","text":"MULTIPLE"},
+		{"id":"a806a9088a04fadd","x":360,"y":22,"width":349,"height":56,"type":"text","text":"ALGUNA VARIABLE NO BASICA <= 0"}
 	],
 	"edges":[
-		{"id":"83200e25ec51ad13","fromNode":"05ef948e419da8c9","fromSide":"right","toNode":"b46c42312cdc3b44","toSide":"left"}
+		{"id":"83200e25ec51ad13","fromNode":"05ef948e419da8c9","fromSide":"right","toNode":"b46c42312cdc3b44","toSide":"left"},
+		{"id":"7460c4f86b3e4f8b","fromNode":"b46c42312cdc3b44","fromSide":"bottom","toNode":"5563fe4a29f777d2","toSide":"top","label":"SINO"},
+		{"id":"bb7196fdd6bac57d","fromNode":"05ef948e419da8c9","fromSide":"bottom","toNode":"779b9eb5dd946913","toSide":"left"},
+		{"id":"67b9b48959f4e8d2","fromNode":"05ef948e419da8c9","fromSide":"bottom","toNode":"17a0cc8c073b44d1","toSide":"left"},
+		{"id":"0cbfbd7595612cec","fromNode":"779b9eb5dd946913","fromSide":"right","toNode":"a806a9088a04fadd","toSide":"left"}
 	]
 }

@@ -33,7 +33,7 @@
 
 ### **Solución alternativa:** 
 
-- Hay mas ceros en la fila Z que filas en todas la tabla (sin contar Z o restricciones. Una solución negativa se puede dar, es factible
+- Hay mas ceros en la fila Z que filas en todas la tabla (sin contar Z) o restricciones. Una solución negativa se puede dar, es factible
 
 
 

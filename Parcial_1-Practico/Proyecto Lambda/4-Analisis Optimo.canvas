@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"id":"05ef948e419da8c9","type":"text","text":"OPTIMO","x":-324,"y":-242,"width":250,"height":60,"color":"1"},
-		{"id":"ebe8dadf7743b3e0","type":"file","file":"Screenshot_20240705_022545.png","x":-1320,"y":52,"width":400,"height":225},
 		{"id":"e7c8336a940fdd4e","type":"text","text":"FACTIBLE","x":-331,"y":520,"width":154,"height":61,"color":"1"},
 		{"id":"85ab3c4146c78849","type":"text","text":"VER LA COLUMNA SOLUCION","x":-206,"y":698,"width":219,"height":82,"color":"2"},
 		{"id":"81cdaa506e774240","type":"text","text":"DEGENERACION","x":-354,"y":896,"width":200,"height":60,"color":"1"},

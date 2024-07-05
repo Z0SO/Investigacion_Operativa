@@ -14,7 +14,7 @@ dual es la solucion alternativa
 ![[Pasted image 20240705152459.png]]![[Pasted image 20240705152833.png]]
 
 
-![[Pasted image 20240510000901.png]]
+	![[Pasted image 20240510000901.png]]
 
 ![[Pasted image 20240510003731.png]]
 

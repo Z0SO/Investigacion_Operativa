@@ -16,13 +16,10 @@ dual es la solucion alternativa
 
 ![[Pasted image 20240510000901.png]]
 
-![[Pasted image 20240510000851.png]]
-
-
-
 ![[Pasted image 20240510003731.png]]
 
 ![[Pasted image 20240510011945.png]]
 
+![[Pasted image 20240510000851.png]]
 
 ![[Pasted image 20240510011936.png]]
